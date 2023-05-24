@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 5c5bb5cc62c8fd546854ced8e026e174
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1442953768373321480
+    second: map_Buildings_0
+  - first:
+      213: -8214015023653053511
+    second: map_Buildings_1
+  - first:
+      213: 8558092665960967602
+    second: map_Buildings_2
+  - first:
+      213: 8340774373130335031
+    second: map_Buildings_3
+  - first:
+      213: -1386573110373467728
+    second: map_Buildings_4
+  - first:
+      213: 865284840504548984
+    second: map_Buildings_5
+  - first:
+      213: -8208734904469709779
+    second: map_Buildings_6
+  - first:
+      213: -3066006615491049658
+    second: map_Buildings_7
+  - first:
+      213: 2576997015919977537
+    second: map_Buildings_8
+  - first:
+      213: 8822552729243059011
+    second: map_Buildings_9
+  - first:
+      213: 4402057680901307276
+    second: map_Buildings_10
+  - first:
+      213: 1363148409928520648
+    second: map_Buildings_11
+  - first:
+      213: 366823069807166152
+    second: map_Buildings_12
+  - first:
+      213: 36689768811611031
+    second: map_Buildings_13
+  - first:
+      213: 7687148255595682953
+    second: map_Buildings_14
+  - first:
+      213: 7319668118760169498
+    second: map_Buildings_15
+  - first:
+      213: -5817087647340250325
+    second: map_Buildings_16
+  - first:
+      213: -8218656046970083674
+    second: map_Buildings_17
+  - first:
+      213: 8555620843416830286
+    second: map_Buildings_18
+  - first:
+      213: 5393063574932177976
+    second: map_Buildings_19
+  - first:
+      213: 6844240578260917481
+    second: map_Buildings_20
+  - first:
+      213: -5273277099899377375
+    second: map_Buildings_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: map_Buildings_0
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2678
+        width: 288
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ff337aec6660410800000000000000
+      internalID: 1442953768373321480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2680
+        width: 288
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb107f0bd4f10e80800000000000000
+      internalID: -8214015023653053511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2678
+        width: 152
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdaa7ddfe374c670800000000000000
+      internalID: 8558092665960967602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2678
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7337d1ed91260c370800000000000000
+      internalID: 8340774373130335031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_4
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 2718
+        width: 320
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9b41d3a17e1cce0800000000000000
+      internalID: -1386573110373467728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_5
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 2710
+        width: 324
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eddcb5afb120c00800000000000000
+      internalID: 865284840504548984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_6
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 2712
+        width: 324
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c9bbb9817b41e80800000000000000
+      internalID: -8208734904469709779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_7
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2708
+        width: 168
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64788a44a3b5375d0800000000000000
+      internalID: -3066006615491049658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_8
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 2708
+        width: 304
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144e629e12553c320800000000000000
+      internalID: 2576997015919977537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_9
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 2776
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3438fae96f0007a70800000000000000
+      internalID: 8822552729243059011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_10
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 2734
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bf6ee3320471d30800000000000000
+      internalID: 4402057680901307276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_11
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 2668
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c39deda140eae210800000000000000
+      internalID: 1363148409928520648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2336
+        width: 216
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2464373a7371500800000000000000
+      internalID: 366823069807166152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_13
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2266
+        width: 550
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79348ec7629528000800000000000000
+      internalID: 36689768811611031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_14
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2318
+        width: 196
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c5b863c9c3eaa60800000000000000
+      internalID: 7687148255595682953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_15
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 2346
+        width: 286
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10a37c6f5fa49560800000000000000
+      internalID: 7319668118760169498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_16
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2370
+        width: 234
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bb8f0ea9d854fa0800000000000000
+      internalID: -5817087647340250325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_17
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 2328
+        width: 262
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a66b3d9ed771fd80800000000000000
+      internalID: -8218656046970083674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_18
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 2312
+        width: 244
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41c9c4d3dbabb670800000000000000
+      internalID: 8555620843416830286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_19
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 2320
+        width: 90
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8344eea6fb208da40800000000000000
+      internalID: 5393063574932177976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_20
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 2314
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec5e882b80abfe50800000000000000
+      internalID: 6844240578260917481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_Buildings_21
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 2134
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ab4aaa6e81d6b0800000000000000
+      internalID: -5273277099899377375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
