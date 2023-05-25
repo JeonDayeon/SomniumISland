@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Nongae/SomniumISland/SOMNIUM_ISLAND/Packages/manifest.json
+    m_FilePath: C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638197554337820647
-    m_Hash: 225883939
+      ticks: 638144882973933428
+    m_Hash: 447771862
   m_LockFileStatus:
-    m_FilePath: C:/Nongae/SomniumISland/SOMNIUM_ISLAND/Packages/packages-lock.json
+    m_FilePath: C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638197554337820647
-    m_Hash: 3174864239
+      ticks: 638144883306185875
+    m_Hash: 2969975552
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.2.2
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.animation@5.2.2
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.animation@5.2.2
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -136,6 +136,7 @@ m_PackageAssets:
         - 7.0.8
         - 7.0.9
         - 7.0.10
+        - 7.0.11
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
@@ -149,9 +150,12 @@ m_PackageAssets:
         - 9.0.0
         - 9.0.1
         - 9.0.2
+        - 9.0.3
         - 10.0.0-pre.1
         - 10.0.0-pre.2
         - 10.0.0
+        - 10.0.1
+        - 10.0.2
         compatible:
         - 5.2.0
         - 5.2.1
@@ -219,7 +223,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -296,7 +300,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.3.0
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.psdimporter@4.3.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.psdimporter@4.3.0
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -446,7 +450,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -497,7 +501,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.3.0
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.spriteshape@5.3.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.spriteshape@5.3.0
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -595,6 +599,7 @@ m_PackageAssets:
         - 10.0.0-pre.1
         - 10.0.0-pre.2
         - 10.0.0
+        - 10.0.1
         compatible:
         - 5.3.0
         verified: 5.3.0
@@ -660,7 +665,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -710,7 +715,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.17.0
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.collab-proxy@1.17.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.collab-proxy@1.17.0
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -862,7 +867,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -991,7 +996,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.16
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1090,7 +1095,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.5
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ide.vscode@1.2.5
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -1099,7 +1104,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: 
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -1146,7 +1151,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1163,7 +1168,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.31
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.test-framework@1.1.31
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1217,6 +1222,7 @@ m_PackageAssets:
         - 1.3.2
         - 1.3.3
         - 1.3.4
+        - 1.3.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1229,6 +1235,7 @@ m_PackageAssets:
         - 1.3.2
         - 1.3.3
         - 1.3.4
+        - 1.3.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -1276,7 +1283,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1445,7 +1452,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1625,7 +1632,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1689,7 +1696,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1737,7 +1744,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1785,7 +1792,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1833,7 +1840,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1881,7 +1888,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1929,7 +1936,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1981,7 +1988,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -2037,7 +2044,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -2086,7 +2093,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -2134,7 +2141,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -2182,7 +2189,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -2230,7 +2237,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2278,7 +2285,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2326,7 +2333,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2378,7 +2385,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2426,7 +2433,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2482,7 +2489,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2534,7 +2541,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2582,7 +2589,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2646,7 +2653,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2694,7 +2701,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2750,7 +2757,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2798,7 +2805,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2854,7 +2861,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2910,7 +2917,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2966,7 +2973,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -3038,7 +3045,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -3090,7 +3097,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -3150,7 +3157,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -3212,7 +3219,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -3260,7 +3267,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3320,7 +3327,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3372,7 +3379,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3431,7 +3438,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3440,7 +3447,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: asset
+      type: 
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
@@ -3479,7 +3486,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 0
+      hideInEditor: 1
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3496,7 +3503,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -3536,6 +3543,7 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.1
         - 1.8.2
+        - 1.9.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3558,6 +3566,7 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.1
         - 1.8.2
+        - 1.9.0
         verified: 1.4.3
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3591,7 +3600,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3672,7 +3681,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.2.0
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.common@4.2.0
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.common@4.2.0
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3681,17 +3690,66 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.1.0
         - 4.2.0
+        - 4.2.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
         compatible:
         - 4.2.0
-        verified: 4.2.0
+        - 4.2.1
+        verified: 4.2.1
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3720,11 +3778,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637836454410000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3737,7 +3795,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.2
       source: 1
-      resolvedPath: C:\Nongae\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.path@4.0.2
+      resolvedPath: C:\Users\JeonDaYoen\Documents\SomniumISland\SOMNIUM_ISLAND\Library\PackageCache\com.unity.2d.path@4.0.2
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3753,7 +3811,27 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -3774,7 +3852,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637637511040000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3784,5 +3862,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Nongae/SomniumISland/SOMNIUM_ISLAND/Packages
+m_ProjectPath: C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND/Packages
 m_EditorVersion: 2020.3.37f1 (8c66806a0c04)
