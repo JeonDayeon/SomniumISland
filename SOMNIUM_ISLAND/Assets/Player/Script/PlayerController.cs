@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameManager Game;
+    public GameObject scanObject;
+
     public float speed = 0.0f;
     public float Walkspeed = 9.0f;
     public float Runspeed = 10.0f;
@@ -15,11 +18,12 @@ public class PlayerController : MonoBehaviour
     bool isHorizonMove;
 
     Rigidbody2D rbody;
-    bool isMoving = false;
+    bool isMoving = true;
 
     // Start is called before the first frame update
     void Start()
     {
+        Game = FindObjectOfType<GameManager>();
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         speed = Walkspeed;
@@ -74,6 +78,22 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isChange", false);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space) && scanObject != null)
+        {
+            isMoving = false;
+            Game.Action(scanObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        scanObject = collision.gameObject;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        scanObject = null;
     }
 
     private void FixedUpdate()
