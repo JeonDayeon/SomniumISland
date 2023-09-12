@@ -8,6 +8,7 @@ public class TalkManager : MonoBehaviour
     public CSVReader CSVReader;
 
     public int id;
+    public string TalkType;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,29 +16,66 @@ public class TalkManager : MonoBehaviour
 
     void GenerateData()
     {
-        if (id == 100)
+        if (TalkType != null)
         {
-            text = CSVReader.Read("Chapter1-1");
+            
         }
-        //Debug.Log("Á¦³×·¹ÀÌÆ® µ¥ÀÌÅÍÁ¦³×·¹ÀÌÆ® µ¥ÀÌÅÍÁ¦³×·¹ÀÌÆ® µ¥ÀÌÅÍÁ¦³×·¹ÀÌÆ® µ¥ÀÌÅÍ");
+
+        else
+        {
+            text = CSVReader.Read("CharacterGreet");
+        }
+
+        Debug.Log("Á¦³×·¹ÀÌÆ® µ¥ÀÌÅÍÁ¦³×·¹ÀÌÆ® µ¥ÀÌÅÍÁ¦³×·¹ÀÌÆ® µ¥ÀÌÅÍÁ¦³×·¹ÀÌÆ® µ¥ÀÌÅÍ");
 
     }
 
-    public string GetTalk(int Tid, int talkindex, string typeName)//³Ñ°Ü ÁÙ µ¥ÀÌÅÍ¸¦ »Ì±â À§ÇØ ¹®ÀÚ¿­·Î ¿øÇÏ´Â °ÍÀ» ¹ÞÀ½
+    public string GetTalk(int Tid, int talkindex, string typeName, string talkType)//³Ñ°Ü ÁÙ µ¥ÀÌÅÍ¸¦ »Ì±â À§ÇØ ¹®ÀÚ¿­·Î ¿øÇÏ´Â °ÍÀ» ¹ÞÀ½
     {
         id = Tid;
-        //Debug.Log("°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå");
+        TalkType = talkType;
+
+        Debug.Log("°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå°ÙÅå");
+
         GenerateData();
 
-        if (talkindex == text.Count)
+
+        if (talkType == null)
         {
-            return null;
-        }
+            int i = 0;
+            int NPC = 0;
         
-        else
-        {
+            while (NPC != id)
+            {
+                NPC = ((int)text[i]["ID"]);
+                talkindex = i;
+                i++;
+            }
+            Debug.Log("//////////////////////////////i =" + i);
             return ((string)text[talkindex][typeName]);
         }
 
+        else
+        {
+            if (talkindex == text.Count)
+            {
+                return null;
+            }
+        
+            else
+            {
+                return ((string)text[talkindex][typeName]);
+            }
+        }
+
+        //if (talkindex == text.Count)
+        //{
+        //    return null;
+        //}
+        //
+        //else
+        //{
+        //    return ((string)text[talkindex][typeName]);
+        //}
     }
 }
