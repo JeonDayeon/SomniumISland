@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.37f1 (8c66806a0c04) revision 9201280'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 32381 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 3955 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,1541 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND
+C:/Nongae/SomniumISland/SOMNIUM_ISLAND
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49925
-Successfully changed project path to: C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND
-C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND
+53379
+Successfully changed project path to: C:/Nongae/SomniumISland/SOMNIUM_ISLAND
+C:/Nongae/SomniumISland/SOMNIUM_ISLAND
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4261.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/JeonDaYoen/Documents/SomniumISland/SOMNIUM_ISLAND/Assets
+[Subsystems] Discovering subsystems at path C:/Nongae/SomniumISland/SOMNIUM_ISLAND/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Renderer: Intel(R) HD Graphics 610 (ID=0x5906)
     Vendor:   
-    VRAM:     16190 MB
-    Driver:   31.0.101.3616
+    VRAM:     1977 MB
+    Driver:   23.20.16.4849
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001896 seconds.
+Registered in 0.213370 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 156.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.407 seconds
+- Completed reload, in 10.455 seconds
 Domain Reload Profiling:
-	ReloadAssembly (407ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (10457ms)
+		BeginReloadAssembly (7556ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (311ms)
-			LoadAssemblies (46ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (122ms)
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (2176ms)
+			LoadAssemblies (7543ms)
+			RebuildTransferFunctionScriptingTraits (4ms)
+			SetupTypeCache (1269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (50ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002611 seconds.
+Registered in 1.329964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 667.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.842 seconds
+- Completed reload, in 15.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (843ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (16023ms)
+		BeginReloadAssembly (554ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (687ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2265 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.3 MB.
-System memory in use after: 103.2 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2700.
-Total: 2.363100 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.046100 ms  DeleteObjects: 0.133900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Image/InBox.png
-  artifactKey: Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/InBox.png using Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f77beba7290a1c3046cc6366ed5282') in 0.119213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Image/KakaoTalk_20230907_172752019_01.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/KakaoTalk_20230907_172752019_01.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce655544afab184237af6a06a700e70c') in 0.024427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Image/KakaoTalk_20230907_172752019.png
-  artifactKey: Guid(6ea1a3d5f1a07114c93ad15e7cc48570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/KakaoTalk_20230907_172752019.png using Guid(6ea1a3d5f1a07114c93ad15e7cc48570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58cb3b4f924837ca6c5f67c0c4fdce2') in 0.023919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4b00b9b92aca231152f6a9b1630cc4') in 0.020525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.011550 seconds.
-  path: Assets/Image/Scale.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Scale.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e668ff296bd7c49292faa27a69b199') in 0.031671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.852694 seconds.
-  path: Assets/Scenes/MiniGame.unity
-  artifactKey: Guid(ee24df504334b6d4198f6f4bcc90fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MiniGame.unity using Guid(ee24df504334b6d4198f6f4bcc90fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134f3667426d4cd652d6085a7140743a') in 0.012906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.531929 seconds.
-  path: Assets/Scenes/MiniGame1.unity
-  artifactKey: Guid(0b430c5fc1caba4478bdf3be4be2301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MiniGame1.unity using Guid(0b430c5fc1caba4478bdf3be4be2301b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a093fc3eb98ff3ec1726141a19a705') in 0.017334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.564141 seconds.
-  path: Assets/Image/Scale.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Scale.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ce06b11253ebaff43a955f50f83f8c') in 0.016877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.829524 seconds.
-  path: Assets/Image/Scale.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Scale.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f8b352a79b8886a8c1ace5f252cef6') in 0.011958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.530048 seconds.
-  path: Assets/Image/Scale.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Scale.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d82f6a7629710ac3b7174c03c1591d') in 0.013310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.581973 seconds.
-  path: Assets/Image/Scale.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Scale.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a844dee95b736f7a9b440b930d711b') in 0.010809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.268850 seconds.
-  path: Assets/M Studio/Art
-  artifactKey: Guid(f62e5b420a2a148b0b210c96fc278f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art using Guid(f62e5b420a2a148b0b210c96fc278f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def877e78846586177cacea627c92f95') in 0.016556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.421914 seconds.
-  path: Assets/M Studio/Art/Buildings
-  artifactKey: Guid(c0cabdb90440d464c8f7befca4cc8d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings using Guid(c0cabdb90440d464c8f7befca4cc8d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954c15ece8487b3a22621d2c76840a25') in 0.015701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.357450 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall
-  artifactKey: Guid(016e3bd4922cf4b8992f5422dc4f6217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall using Guid(016e3bd4922cf4b8992f5422dc4f6217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb987ff16976281a915d9440c4385a5b') in 0.016655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054216 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_Grape.png
-  artifactKey: Guid(55a5bd44420c244b6af7e049703c8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_Grape.png using Guid(55a5bd44420c244b6af7e049703c8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535c285f75f86459e8670b46e3323a9b') in 0.029278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_PotatoSeed.png
-  artifactKey: Guid(b21174a41e04d41cbaee9e92b7c2536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_PotatoSeed.png using Guid(b21174a41e04d41cbaee9e92b7c2536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f094c54e2890aefc2124dde6ff63cef') in 0.030206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000599 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Stall.png
-  artifactKey: Guid(2f1c29c6416e046c1803e001a27df17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Stall.png using Guid(2f1c29c6416e046c1803e001a27df17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac43022a2f13951b3e35c62801cf582') in 0.029670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Sign_Mira.png
-  artifactKey: Guid(10e59dc2a25c94cc4b7d87146b3f316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Sign_Mira.png using Guid(10e59dc2a25c94cc4b7d87146b3f316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33695a11b3bacb7ed0090dea6b8f7cdf') in 0.033801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_PinkRadishSeed.png
-  artifactKey: Guid(6deecea147de24e288cfc834ea7dc746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_PinkRadishSeed.png using Guid(6deecea147de24e288cfc834ea7dc746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8f5b4b6dec54f0b72909967cfe528f') in 0.034632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_Potato.png
-  artifactKey: Guid(78f1847698dd743f4b5e5b69aa943a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_Potato.png using Guid(78f1847698dd743f4b5e5b69aa943a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07669b4cf88eaf31b96a1df46ab821dc') in 0.027955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000670 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Sign_Yoko.png
-  artifactKey: Guid(8522f75dca10f444e8a3bd0c65d1bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Sign_Yoko.png using Guid(8522f75dca10f444e8a3bd0c65d1bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c7b742ab3547e3502b91a603fc2f7c') in 0.029678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_GrapeSeed.png
-  artifactKey: Guid(3ae6e0e8191b3415fb878527845ecfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_GrapeSeed.png using Guid(3ae6e0e8191b3415fb878527845ecfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3414f9484376c2dd562ee222bd5d0084') in 0.031151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001166 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Stall_shadow.png
-  artifactKey: Guid(5f5715a8552d14b8d9015f3b9dfb3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Stall_shadow.png using Guid(5f5715a8552d14b8d9015f3b9dfb3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac5b00371fd5c586402b115fc5b473c') in 0.031474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000902 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_Turnip.png
-  artifactKey: Guid(96169befcacfc4493bc69a392761b698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_Turnip.png using Guid(96169befcacfc4493bc69a392761b698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5053e95cd6edeed15c6cbdbdce6743') in 0.035146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/M Studio/Art/Buildings/Stall/Box_Vegetables.png
-  artifactKey: Guid(37045baf0c81140f98abd36bb1da03cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Stall/Box_Vegetables.png using Guid(37045baf0c81140f98abd36bb1da03cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416190bf8473e75a903a8ec0f2a10e98') in 0.030968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.779834 seconds.
-  path: Assets/M Studio/Art/Buildings/House01/House_01@20.png
-  artifactKey: Guid(dbf2a77cb00bb46b3ab9408dcebf1e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/House01/House_01@20.png using Guid(dbf2a77cb00bb46b3ab9408dcebf1e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af85d5b37c47442cbd168764c1443e5e') in 0.379796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.057484 seconds.
-  path: Assets/M Studio/Art/Buildings/House02/House_02@20.png
-  artifactKey: Guid(262dff601ea0d42aeb42d82c81d08fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/House02/House_02@20.png using Guid(262dff601ea0d42aeb42d82c81d08fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ea482959f66f1e45f35c8aebdfb85d') in 0.034246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/M Studio/Art/Buildings/House02/House_02_Door.png
-  artifactKey: Guid(8ab5351114a744733b5fb2c5c757d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/House02/House_02_Door.png using Guid(8ab5351114a744733b5fb2c5c757d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d06f7c604c01c4d87fb42406b610558') in 0.031181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.340461 seconds.
-  path: Assets/M Studio/Art/Buildings/House03/House03@20.png
-  artifactKey: Guid(d5c3b16b1bba746d693bf0211c217664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/House03/House03@20.png using Guid(d5c3b16b1bba746d693bf0211c217664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6121d14c518497e961ab5468274441be') in 0.472829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/M Studio/Art/Buildings/House03/House03_Door.png
-  artifactKey: Guid(18cd2349f8a0e457b9a1abef787cdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/House03/House03_Door.png using Guid(18cd2349f8a0e457b9a1abef787cdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d720f0c3035d75a5e4f2b57c9a6fd8') in 0.025643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.113162 seconds.
-  path: Assets/M Studio/Art/Buildings/Hotel/Materials/Hotel@20.mat
-  artifactKey: Guid(543f98f544c4a6e4486e962f33d3f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Hotel/Materials/Hotel@20.mat using Guid(543f98f544c4a6e4486e962f33d3f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83f959dcdf36c9d1a0e2dfb341d9a23') in 0.074718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000612 seconds.
-  path: Assets/M Studio/Art/Buildings/Hotel/Materials/Hotel_Flower@20.mat
-  artifactKey: Guid(460e8dbc723b6d84c9efab973b7a03f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Hotel/Materials/Hotel_Flower@20.mat using Guid(460e8dbc723b6d84c9efab973b7a03f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76491f32528a88b14cbc5cc2cc02e853') in 0.040613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.342005 seconds.
-  path: Assets/M Studio/Art/Buildings/Hotel/Hotel@20.png
-  artifactKey: Guid(7073609df2c354df7b8f8722d67541bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Hotel/Hotel@20.png using Guid(7073609df2c354df7b8f8722d67541bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951eaa179322b80c053bbc8460d7f56b') in 0.496048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/M Studio/Art/Buildings/Hotel/Hotel_Door.png
-  artifactKey: Guid(a43ed37d9354f4b7aaf8c2c90fb09197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Hotel/Hotel_Door.png using Guid(a43ed37d9354f4b7aaf8c2c90fb09197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f601f2d2837b9fc4c5ca01503b006e0d') in 0.035329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/M Studio/Art/Buildings/Hotel/Hotel_Flower@20.png
-  artifactKey: Guid(4519e3023f2944cecb7ed510f5d6bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/Hotel/Hotel_Flower@20.png using Guid(4519e3023f2944cecb7ed510f5d6bfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cab7fa66abaac21a7554ab6f98fc663') in 0.532530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.815516 seconds.
-  path: Assets/M Studio/Art/Buildings/HouseTile
-  artifactKey: Guid(92feb94f638b046119ad71e114e6cb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/HouseTile using Guid(92feb94f638b046119ad71e114e6cb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585adc6f990d3fbe505a6146cc634d04') in 0.012140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052125 seconds.
-  path: Assets/M Studio/Art/Buildings/HouseTile/HouseTile@20.png
-  artifactKey: Guid(08e068dcd0cbb42469d9275d6b0c667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/HouseTile/HouseTile@20.png using Guid(08e068dcd0cbb42469d9275d6b0c667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25627c5b029640c423a7a82ef51ec1e9') in 0.568979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/M Studio/Art/Buildings/HouseTile/HouseTile_Door02.png
-  artifactKey: Guid(3c64c92d5bfb0442b8b8c7b3fc5b5ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/HouseTile/HouseTile_Door02.png using Guid(3c64c92d5bfb0442b8b8c7b3fc5b5ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcc4e9d832734d9e127b65909317406') in 0.027726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/M Studio/Art/Buildings/HouseTile/HouseTile_Door01.png
-  artifactKey: Guid(93b078144677d40a3b293ce1ab22b320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/HouseTile/HouseTile_Door01.png using Guid(93b078144677d40a3b293ce1ab22b320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5355f272e49e80f88a5036ac1248bd7b') in 0.029614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/M Studio/Art/Buildings/HouseTile/HouseTile_Door03.png
-  artifactKey: Guid(95662b19b704c4f93ae33e666c334adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/HouseTile/HouseTile_Door03.png using Guid(95662b19b704c4f93ae33e666c334adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e659552dcd461ba95c716a98f5297') in 0.032695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.478002 seconds.
-  path: Assets/M Studio/Art/Buildings/House01
-  artifactKey: Guid(e8d086ebafd674250b9740746f534322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Buildings/House01 using Guid(e8d086ebafd674250b9740746f534322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca88e31c6adaf7bfc9b150ac4c05115d') in 0.014525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.175416 seconds.
-  path: Assets/M Studio/Art/Items
-  artifactKey: Guid(addc087f5bf104d479d0ebd13b271555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items using Guid(addc087f5bf104d479d0ebd13b271555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3dc6a2104f4a0eceb67d1a874d33d3') in 0.014451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.845435 seconds.
-  path: Assets/M Studio/Art/Items/Furnitrue01
-  artifactKey: Guid(937def7dc19c04687b0448c3fdc4dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furnitrue01 using Guid(937def7dc19c04687b0448c3fdc4dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933f2ae2c7412856a2f69ad546a942a7') in 0.022015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046254 seconds.
-  path: Assets/M Studio/Art/Items/Furnitrue01/Fire01.png
-  artifactKey: Guid(6154db5d48fbe4de0a0c7a25ab284936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furnitrue01/Fire01.png using Guid(6154db5d48fbe4de0a0c7a25ab284936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e20109707e0cd7286f823491991c8c4') in 0.028661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001063 seconds.
-  path: Assets/M Studio/Art/Items/Furnitrue01/Furniture01.png
-  artifactKey: Guid(d67f8bdea7b454ba08443e00d51268b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furnitrue01/Furniture01.png using Guid(d67f8bdea7b454ba08443e00d51268b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9192805471f4a6a89c598b425589e072') in 0.104319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.378053 seconds.
-  path: Assets/Image/InBox.png
-  artifactKey: Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/InBox.png using Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6acff6ce29031df4721b0404823d603') in 0.016244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.228422 seconds.
-  path: Assets/Image/InBox.png
-  artifactKey: Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/InBox.png using Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451ada1cd43257d83109a21db0837fa3') in 0.026130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.337980 seconds.
-  path: Assets/Image/InBox.png
-  artifactKey: Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/InBox.png using Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c10756ecbdbb537853e4982c5e89b4f') in 0.027898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.492327 seconds.
-  path: Assets/Image/InBox.png
-  artifactKey: Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/InBox.png using Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5e62ef7ea6f7e47250480e5576192a') in 0.031299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.472032 seconds.
-  path: Assets/M Studio/Art/Items/Furnitrue01/Furniture01.png
-  artifactKey: Guid(d67f8bdea7b454ba08443e00d51268b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furnitrue01/Furniture01.png using Guid(d67f8bdea7b454ba08443e00d51268b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff763c714fb6d1e2e5d8976a406b807') in 0.085857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.471358 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_01.png
-  artifactKey: Guid(f1b1115ca9b854af7bbbb62be7fc47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_01.png using Guid(f1b1115ca9b854af7bbbb62be7fc47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eccab149ea438cfa6f659300a828f2') in 0.034465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_03.png
-  artifactKey: Guid(72d51741fece74e6c9d6cc266bd3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_03.png using Guid(72d51741fece74e6c9d6cc266bd3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087f19b4e120e9789bd16c9198755125') in 0.031657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_04.png
-  artifactKey: Guid(5f33572e0e10744c1880f988964682e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_04.png using Guid(5f33572e0e10744c1880f988964682e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cdfe832543827959205a48bc92c119') in 0.031431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_02.png
-  artifactKey: Guid(3ea72fe4137c444dbbbddb8e64ab97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_02.png using Guid(3ea72fe4137c444dbbbddb8e64ab97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9051e5e2a7b639d34a9bb8907666bb2') in 0.030759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_07.png
-  artifactKey: Guid(8fc792dbeaf99417180031a1f6b289d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_07.png using Guid(8fc792dbeaf99417180031a1f6b289d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115ef91bb12407b71bc057ab2fa7b8fc') in 0.031897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_08.png
-  artifactKey: Guid(3eb9fddd25b8548139877c93ed12a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_08.png using Guid(3eb9fddd25b8548139877c93ed12a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1657d7be2dc04127ba5db7c20834f0d') in 0.030631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_06.png
-  artifactKey: Guid(166c76cc13e124cc29fcade2273d9631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_06.png using Guid(166c76cc13e124cc29fcade2273d9631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553070dd9d8a689c8277383fa6679232') in 0.028567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/M Studio/Art/Items/Bushes/bushes_05.png
-  artifactKey: Guid(c4989e92ff1a948d5ac205795e5dfeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Bushes/bushes_05.png using Guid(c4989e92ff1a948d5ac205795e5dfeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71744276ac9574fd2dbd87de94c82acf') in 0.029085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 111.198844 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f8fb57b2f89a93be15800ecb5292e1') in 0.024256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.492288 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec438851b82595e87163ef50c6aa32c5') in 0.013035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.701182 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab25a7d22e0422c9c5d1fedf83e285c') in 0.018895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.176925 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ed44a9c0e376a4185dabd69d1c2df4') in 0.028043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.290260 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1ef1f9a8228646a32ed9c7cc407224') in 0.024003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.151301 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffce23efadadb08806c24ec82f163f2') in 0.018231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4564.376394 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.015088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.478555 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.032585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.814995 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.094404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.038412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.061856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.048502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.582349 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.013162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.474053 seconds.
-  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99846f5a5cef2b9fb3476a6a84d35918') in 0.011243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.358576 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093a2cdfc4701742cd4e2e9653a3929b') in 0.018449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.597432 seconds.
-  path: Assets/DNFBitBitTTF.ttf
-  artifactKey: Guid(365238a5b2689d14b97a0296bb4bbf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF.ttf using Guid(365238a5b2689d14b97a0296bb4bbf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e42bc09c44ad698769cc5ee1f9dbe4') in 0.024144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.949103 seconds.
-  path: Assets/DNFBitBitTTF 1.ttf
-  artifactKey: Guid(e16d872dedbf1804b88914a8142e2bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF 1.ttf using Guid(e16d872dedbf1804b88914a8142e2bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec596ae0ea1d2df75b67b1b16e541034') in 0.024003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 198.010047 seconds.
-  path: Assets/DNFBitBitTTF 1 SDF.asset
-  artifactKey: Guid(10ba79843f6746846867524ebfcf9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF 1 SDF.asset using Guid(10ba79843f6746846867524ebfcf9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f9eacae1dd647996a043252f0e3804') in 0.176173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1135.740822 seconds.
-  path: Assets/M Studio
-  artifactKey: Guid(be1ec0f26aa7bf043a62311aa3b581e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio using Guid(be1ec0f26aa7bf043a62311aa3b581e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb80870582706ca8bbefb1ce95771785') in 0.015179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.483111 seconds.
-  path: Assets/M Studio/Art/Items/Icons
-  artifactKey: Guid(181038efb47834697bd7f70e3fd18bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons using Guid(181038efb47834697bd7f70e3fd18bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f340788bbad4607e7cb3d62b181233') in 0.015800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040645 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Basket.png
-  artifactKey: Guid(21f88cda6c810402583055801e6a2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Basket.png using Guid(21f88cda6c810402583055801e6a2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03703872839664a384a225dce21c05a') in 0.024538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Grape.png
-  artifactKey: Guid(567730b76d77440f09c9bb6adee6040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Grape.png using Guid(567730b76d77440f09c9bb6adee6040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1750e7e5a79c828231b328e70c444b6c') in 0.026348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Pickaxe.png
-  artifactKey: Guid(ab9788b07a759404293670018c76ec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Pickaxe.png using Guid(ab9788b07a759404293670018c76ec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d6f68af901e856f3ac75eeed89f0be') in 0.027497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_pumpkin.png
-  artifactKey: Guid(709947d08509b408db26e4136a0232ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_pumpkin.png using Guid(709947d08509b408db26e4136a0232ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3cc279976d6b758ac125906605a876') in 0.027976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_M.png
-  artifactKey: Guid(ef065fb65f97e43f8b673d7718f87178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_M.png using Guid(ef065fb65f97e43f8b673d7718f87178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a5bcb7632dae3fc50db5674e199836') in 0.032290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Potato.png
-  artifactKey: Guid(59a2ce6cc735e4cd3a3da1bad8629303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Potato.png using Guid(59a2ce6cc735e4cd3a3da1bad8629303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8d4343d09c6911fa6971405b0ead58') in 0.027728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_NeedieWood.png
-  artifactKey: Guid(5809980803ddf45a1aa8df14dbc00394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_NeedieWood.png using Guid(5809980803ddf45a1aa8df14dbc00394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3951f827172206f8c264d55943fa5d79') in 0.028591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Grass.png
-  artifactKey: Guid(e457a28d7c05742a6bcb044458883809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Grass.png using Guid(e457a28d7c05742a6bcb044458883809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea89032ce227ec1920389c034bad908') in 0.026564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Turnip.png
-  artifactKey: Guid(ead453a0ee8ee49329522ee30394ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Turnip.png using Guid(ead453a0ee8ee49329522ee30394ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e582b192a4f10b0dcffe64858e1c93b') in 0.027115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_TurnipSeed.png
-  artifactKey: Guid(0689ebc0f067f41fa98586e5b574896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_TurnipSeed.png using Guid(0689ebc0f067f41fa98586e5b574896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df93ecf4441fe086b5c5d79ea18e6ef') in 0.031063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_NeedieSeed.png
-  artifactKey: Guid(9930d861d3ccf4ddc87536ae85a56425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_NeedieSeed.png using Guid(9930d861d3ccf4ddc87536ae85a56425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5693ca1878ffedd7f226ce85a8b0b7') in 0.027666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_BroadleafWood.png
-  artifactKey: Guid(6bdcabcb3e8684660981c3dbfa135c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_BroadleafWood.png using Guid(6bdcabcb3e8684660981c3dbfa135c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ed294ef5aecbb0e317f5fb36d6c976') in 0.028294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_PinkRadish.png
-  artifactKey: Guid(3fa10b9ef4ceb407f953f7783c0c5ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_PinkRadish.png using Guid(3fa10b9ef4ceb407f953f7783c0c5ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa35b3fc0ce36186caf51757dfa14281') in 0.029472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_WateringCan.png
-  artifactKey: Guid(5b98b5b289f8549f9bbd017e5f0aa5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_WateringCan.png using Guid(5b98b5b289f8549f9bbd017e5f0aa5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f51d8cdc99a43b9b04752b11545ed2') in 0.026696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Chop.png
-  artifactKey: Guid(3714c3e6b5e3d498ebcd06d432b3dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Chop.png using Guid(3714c3e6b5e3d498ebcd06d432b3dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce40e64a80f5e41b9ca4a0303254a69') in 0.027015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000553 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Table.png
-  artifactKey: Guid(6002a3f97c68f43619712d1cdc65bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Table.png using Guid(6002a3f97c68f43619712d1cdc65bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6851b78392569e607bd1d1037ff151e9') in 0.030963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Chair.png
-  artifactKey: Guid(35f35fec54071471ea798838348d5913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Chair.png using Guid(35f35fec54071471ea798838348d5913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32a0506aa95c1752477948df705dd0') in 0.030871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_PinkRadishSeed.png
-  artifactKey: Guid(2597146da57814c789a59eda5740c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_PinkRadishSeed.png using Guid(2597146da57814c789a59eda5740c9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9d448331f33b1918c0c00a4aaa39f4') in 0.023571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Game.png
-  artifactKey: Guid(64d6efac46c1d450bbcb0f49d098bea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Game.png using Guid(64d6efac46c1d450bbcb0f49d098bea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64622548ce73483074f0b300e244ff8b') in 0.033139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_GrapeSeed.png
-  artifactKey: Guid(13fd782ac3661413abe57fc16343e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_GrapeSeed.png using Guid(13fd782ac3661413abe57fc16343e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff64d7e246870eabcee34caab5947853') in 0.026052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Hoe.png
-  artifactKey: Guid(71ca9227166f34790bb8b1c7948d491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Hoe.png using Guid(71ca9227166f34790bb8b1c7948d491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41c69ac045f7e5dc8ac2d3e1de497fe') in 0.024381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Rock.png
-  artifactKey: Guid(0d1bd60a4df28461a802344fdf5d9478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Rock.png using Guid(0d1bd60a4df28461a802344fdf5d9478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8664bb775ae876773b95015483639d5') in 0.028416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_BroadleafSeed.png
-  artifactKey: Guid(1ae82374d0e4445118e47ce07e8426fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_BroadleafSeed.png using Guid(1ae82374d0e4445118e47ce07e8426fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78486388ef3ea28fbe5b87468f599c9') in 0.030353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_PotatoSeed.png
-  artifactKey: Guid(f140b8cf7b2cb44c5bf34bb9bb3292f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_PotatoSeed.png using Guid(f140b8cf7b2cb44c5bf34bb9bb3292f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5e3408baddfe711ce4ac8adb24f19b') in 0.022343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/M Studio/Art/Items/Icons/icon_Reap.png
-  artifactKey: Guid(9aae36af8a3474f72a99e04af71b7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Icons/icon_Reap.png using Guid(9aae36af8a3474f72a99e04af71b7044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a83d31d77a07b6125243afbcbb946f1') in 0.031572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.969688 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Bench.png
-  artifactKey: Guid(5d77c9f9c4a4a45358ae2b37b4929b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Bench.png using Guid(5d77c9f9c4a4a45358ae2b37b4929b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775f451475dbec516008b72becce6242') in 0.056530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Fire02.png
-  artifactKey: Guid(88086e6f3564c477e94237a180a1b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Fire02.png using Guid(88086e6f3564c477e94237a180a1b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60ad19f0692b0bd65ef694b30afe143') in 0.039414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Fireplace.png
-  artifactKey: Guid(8753d8fb0e5c8455990d4eb571eb0bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Fireplace.png using Guid(8753d8fb0e5c8455990d4eb571eb0bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc9b4030ef9e1b406a1648d0bc05053') in 0.070983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Furniture02.png
-  artifactKey: Guid(67d720451a8544975b5ef02b7e84f232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Furniture02.png using Guid(67d720451a8544975b5ef02b7e84f232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35afc01498b08efd34eded4c8a98f0f5') in 0.095284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Table_Sliced@20.png
-  artifactKey: Guid(f94ca4d68b65b499f8cef0b7e6d4c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Table_Sliced@20.png using Guid(f94ca4d68b65b499f8cef0b7e6d4c696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c0bbd092b86b777fb2853168c6c630') in 0.030820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Tables_Chairs.png
-  artifactKey: Guid(3bdb6f1370acd4062a47227630afb05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Tables_Chairs.png using Guid(3bdb6f1370acd4062a47227630afb05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9830c440fa761a5e7783becdef1c6b6d') in 0.084995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/M Studio/Art/Items/Furniture02/Tableware.png
-  artifactKey: Guid(eb4015f4917924911bf72cf91241cde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Furniture02/Tableware.png using Guid(eb4015f4917924911bf72cf91241cde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11dacde0380822dd0245ef08f49115c1') in 0.095488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.677288 seconds.
-  path: Assets/M Studio/Art/Items/Grass/Grass01.png
-  artifactKey: Guid(9ae5a331348064d73aa91a952b9e1a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Grass/Grass01.png using Guid(9ae5a331348064d73aa91a952b9e1a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d930a01b6992f09463cc3c291f0a02') in 0.030265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/M Studio/Art/Items/Grass/Grass03.png
-  artifactKey: Guid(0c055f09a64a74805ad18c1f0b134fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Grass/Grass03.png using Guid(0c055f09a64a74805ad18c1f0b134fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8335981f5b98ca68a59d35f7ce22d3') in 0.028941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/M Studio/Art/Items/Grass/Grass_Harvest.png
-  artifactKey: Guid(e8ebe711ec1de4697a10d8c2f3f39f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Grass/Grass_Harvest.png using Guid(e8ebe711ec1de4697a10d8c2f3f39f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0245c43e4444089342fa9aca8bd737d6') in 0.029598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/M Studio/Art/Items/Grass/Grass_Particale.png
-  artifactKey: Guid(8423c6979f5684e39915875b56d59bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Grass/Grass_Particale.png using Guid(8423c6979f5684e39915875b56d59bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e889009cf1397331b354fb78614d2bfc') in 0.030525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/M Studio/Art/Items/Grass/Grass02.png
-  artifactKey: Guid(e6647f7a307d24b65957f4ef34c39562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Grass/Grass02.png using Guid(e6647f7a307d24b65957f4ef34c39562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2b83848e2c683b3e77b5606223d2f5') in 0.025005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.557335 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/icon_TomatoSeed.png
-  artifactKey: Guid(cfbba8cf50d164f2182e614389427136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/icon_TomatoSeed.png using Guid(cfbba8cf50d164f2182e614389427136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8bbadbf1bba90be61c70c00acdc710') in 0.029362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/watermelon.png
-  artifactKey: Guid(09de733bd01a24ca6bc8f78192d8f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/watermelon.png using Guid(09de733bd01a24ca6bc8f78192d8f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfc2dc22fa4ba42bbfe78f290d4c4a7') in 0.030050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/WatermelonSeed_Hold.png
-  artifactKey: Guid(e4373ab1bca4244e89aa5c948b14f09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/WatermelonSeed_Hold.png using Guid(e4373ab1bca4244e89aa5c948b14f09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445dfdcc9dd6aea378bc797a3854c5fa') in 0.028276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/tomato_growth.png
-  artifactKey: Guid(cfbc4902a2e4349e2986894ea4d8330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/tomato_growth.png using Guid(cfbc4902a2e4349e2986894ea4d8330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af99b076136acee974631248ff7ceb7') in 0.037642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/tomato.png
-  artifactKey: Guid(829edba0aa42246a2a95e69096ea5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/tomato.png using Guid(829edba0aa42246a2a95e69096ea5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b76ca7c5f07288ce1f126e12106535') in 0.029804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/redpapper_growth.png
-  artifactKey: Guid(d51ba492cc4d84616b8153b632a0f330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/redpapper_growth.png using Guid(d51ba492cc4d84616b8153b632a0f330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4250d76065ab887400aaa48e80a2a0a9') in 0.039457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000527 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/redpapper.png
-  artifactKey: Guid(3fcb9b37a91af4aed85fcc8c19c7d112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/redpapper.png using Guid(3fcb9b37a91af4aed85fcc8c19c7d112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa874f32def5034d60a33946ae4b4860') in 0.026921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/TomatoSeed_hold.png
-  artifactKey: Guid(b2299da4eb0be49f0843d0e1fbafbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/TomatoSeed_hold.png using Guid(b2299da4eb0be49f0843d0e1fbafbed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7922b562a08d1b164790b4909963dee') in 0.028173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/pumpkin_growth.png
-  artifactKey: Guid(0f8fa26bd67a74039b2bfcc93554e8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/pumpkin_growth.png using Guid(0f8fa26bd67a74039b2bfcc93554e8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd5fd9fcba27f39a97d30639058120d') in 0.039710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/watermelon_growth.png
-  artifactKey: Guid(8f2e8097fb3aa4be68e23bead3addf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/watermelon_growth.png using Guid(8f2e8097fb3aa4be68e23bead3addf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff57e899438adfd1e7b4724c5c4eaa77') in 0.037552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/PumpkinSeed_hold.png
-  artifactKey: Guid(738078985c017481f8d443cf821e26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/PumpkinSeed_hold.png using Guid(738078985c017481f8d443cf821e26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc46a15f8f31ffe4364edf18adf46033') in 0.025217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/icon_WatermelonSeed.png
-  artifactKey: Guid(5cfc475b0e3804e81b1233785b390bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/icon_WatermelonSeed.png using Guid(5cfc475b0e3804e81b1233785b390bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b32c821bdb68062ed4a29ff00620b9c') in 0.027640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/pumpkin.png
-  artifactKey: Guid(a986aa660462947b1826545d17ad6691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/pumpkin.png using Guid(a986aa660462947b1826545d17ad6691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af121cc5d37bf58b42d20a1de5be7546') in 0.026000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/RedpapperSeed_hold.png
-  artifactKey: Guid(38565caefc0504f3f9cb90ce3c5d3c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/RedpapperSeed_hold.png using Guid(38565caefc0504f3f9cb90ce3c5d3c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e58b97c2cf69907a2f102c7374237d') in 0.025906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.085696 seconds.
-  path: Assets/M Studio/Art/Items/Plants/Grape_grow.png
-  artifactKey: Guid(24e3edf5cfa4d468fbdeed1f09a965a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/Grape_grow.png using Guid(24e3edf5cfa4d468fbdeed1f09a965a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316acca01ee7ad80c7b3a1028f168ba9') in 0.041410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/M Studio/Art/Items/Plants/Pumkip.png
-  artifactKey: Guid(ad070f26e0cdc4eafa6b593dbdcbe9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/Pumkip.png using Guid(ad070f26e0cdc4eafa6b593dbdcbe9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f9f579d302715be06aefc537d58a80') in 0.024822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/M Studio/Art/Items/Plants/PotatoSeed_hold.png
-  artifactKey: Guid(712efb3c5425e4d62aa03accb5b7a498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/PotatoSeed_hold.png using Guid(712efb3c5425e4d62aa03accb5b7a498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d62437d8fc0db088f5e37068752bf') in 0.031098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/M Studio/Art/Items/Plants/GrapeSeed_hold.png
-  artifactKey: Guid(eff80b331cf5c4ca49471d8604c3b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/GrapeSeed_hold.png using Guid(eff80b331cf5c4ca49471d8604c3b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fb23f8c6b5deda72e1e14cb000d28c') in 0.027540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/M Studio/Art/Items/Plants/Potato_grow.png
-  artifactKey: Guid(bd1655396b777431e85369611fc36aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/Potato_grow.png using Guid(bd1655396b777431e85369611fc36aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea660acb374d2479acfe7f2e2720e99') in 0.039441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/M Studio/Art/Items/Plants/Turnip_grow.png
-  artifactKey: Guid(87430ba1a26c4408191e4027950e7133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/Turnip_grow.png using Guid(87430ba1a26c4408191e4027950e7133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2907b7a4b20213670c07bde6a760d7') in 0.041478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/M Studio/Art/Items/Plants/PinkRadish_grow.png
-  artifactKey: Guid(ba8cb7102384d418883ef909ed3befd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/PinkRadish_grow.png using Guid(ba8cb7102384d418883ef909ed3befd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ce0a36321b0366e2676bc3882e9d5e') in 0.042989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/M Studio/Art/Items/Plants/PinkRadishSeed_hold.png
-  artifactKey: Guid(0f5a527a6777043739c58b084887ec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/PinkRadishSeed_hold.png using Guid(0f5a527a6777043739c58b084887ec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f89513e3dee158409cc5cef163bf3bd') in 0.032034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/M Studio/Art/Items/Plants/TurnipSeed_hold.png
-  artifactKey: Guid(58c6799e544ae49a48186335b7f16ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/TurnipSeed_hold.png using Guid(58c6799e544ae49a48186335b7f16ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5505cd66651816147f8cd2d50e688a') in 0.027024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.791216 seconds.
-  path: Assets/M Studio/Art/Items/Plants/Materials/Potato_grow.mat
-  artifactKey: Guid(0c91fb06822e5504a90e49b39ec5b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Plants/Materials/Potato_grow.mat using Guid(0c91fb06822e5504a90e49b39ec5b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd149732f18162bb181a55eb9804c8ce8') in 0.035083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.854896 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Bottom.png
-  artifactKey: Guid(c00b9352baa0c44639d70f0e2a96a856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Bottom.png using Guid(c00b9352baa0c44639d70f0e2a96a856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fc154003c83dc7662e5ab7d4f47e30') in 0.030112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Top.png
-  artifactKey: Guid(e12c6f18fb50544fea7f5245a9a2aeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Top.png using Guid(e12c6f18fb50544fea7f5245a9a2aeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2da7831584b03f1d3627c5869a28913') in 0.033929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Stage01.png
-  artifactKey: Guid(b344f2cee7ac54d7ab52e493a1bb4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Stage01.png using Guid(b344f2cee7ac54d7ab52e493a1bb4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e26e9ff7378d78f697771988824618') in 0.029885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Trunk.png
-  artifactKey: Guid(f92caccf9fb8e45bcb3b3b1116dcbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Trunk.png using Guid(f92caccf9fb8e45bcb3b3b1116dcbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a01822e7279f3749fa0728648f851cc') in 0.027321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Leaves.png
-  artifactKey: Guid(6c036bded4846496a9ec5a102fde4c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Leaves.png using Guid(6c036bded4846496a9ec5a102fde4c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4243c0ce99e9bbfe3f94c3bd72ccbad') in 0.033795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Stage03.png
-  artifactKey: Guid(4590cd3fefdd74b22ae749a122189ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Stage03.png using Guid(4590cd3fefdd74b22ae749a122189ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805f49ce0b48805143fad110ff937452') in 0.032940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Fruitage.png
-  artifactKey: Guid(3979be82862ab4b42be8e0b3222694bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Fruitage.png using Guid(3979be82862ab4b42be8e0b3222694bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538f2f773960e7c770e6f87e6be199a8') in 0.034444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Tree01_Stage02.png
-  artifactKey: Guid(c54002cd9727a43329d7f75c50778b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Tree01_Stage02.png using Guid(c54002cd9727a43329d7f75c50778b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ff74e32088f4e07cff19ed04c4e2e') in 0.033560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.805785 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Materials/Tree01_Stage01.mat
-  artifactKey: Guid(deb8157f7da307945a36b41f45f5c4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Materials/Tree01_Stage01.mat using Guid(deb8157f7da307945a36b41f45f5c4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58690741a2474d8321177f57f5c77a9c') in 0.032138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/M Studio/Art/Items/Tree01/Materials/Tree01_Top.mat
-  artifactKey: Guid(f59ac25e223c9fc409c83b67054f9388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree01/Materials/Tree01_Top.mat using Guid(f59ac25e223c9fc409c83b67054f9388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0db68d9df7d1d394c2879cdfcec37a0') in 0.027975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.519711 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Bottom.png
-  artifactKey: Guid(ab3861d4b685d4d048cd7cd1c18e9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Bottom.png using Guid(ab3861d4b685d4d048cd7cd1c18e9574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f160d75347e69c9faae3ad2d602241c') in 0.032657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Stage03.png
-  artifactKey: Guid(0a4318b810b0f467fab50a11f472c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Stage03.png using Guid(0a4318b810b0f467fab50a11f472c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455087e535a60d18eacd1642c865b0da') in 0.031914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Fruitage.png
-  artifactKey: Guid(83539708444bc497b8d9f5bba223cc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Fruitage.png using Guid(83539708444bc497b8d9f5bba223cc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122f9e7fe69c828ce47c7bf2398390da') in 0.034797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Leaves.png
-  artifactKey: Guid(d84811af7853b43f482300ffc1f12c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Leaves.png using Guid(d84811af7853b43f482300ffc1f12c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536fed8ba3665697f929c566f92d8e34') in 0.029627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Stage01.png
-  artifactKey: Guid(309497be57b084f4da5b2c165ddceca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Stage01.png using Guid(309497be57b084f4da5b2c165ddceca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d69b38c316ac98890644f9d7321605c') in 0.029654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Stage02.png
-  artifactKey: Guid(41bef8696d59f440aa1befb8b23dee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Stage02.png using Guid(41bef8696d59f440aa1befb8b23dee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a369656579d7f1d555dcca3bf0d3510b') in 0.025341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Trunk.png
-  artifactKey: Guid(774ad8d2636c5457e81a95a3e1f2352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Trunk.png using Guid(774ad8d2636c5457e81a95a3e1f2352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba4b1460afaa2ba36a139c6d0a69814') in 0.029619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/M Studio/Art/Items/Tree02/Tree02_Top.png
-  artifactKey: Guid(a21492e2d90cf4f038c4b9ae2600c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Tree02/Tree02_Top.png using Guid(a21492e2d90cf4f038c4b9ae2600c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bad94a8ed17393a747af42224a071f') in 0.032847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.074745 seconds.
-  path: Assets/M Studio/Art/Items/Woods/BroadleafWood_Harvest.png
-  artifactKey: Guid(018bd79f696fb400584536e445976758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Woods/BroadleafWood_Harvest.png using Guid(018bd79f696fb400584536e445976758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ea373a0db20e63f66042cac2858855') in 0.031321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000697 seconds.
-  path: Assets/M Studio/Art/Items/Woods/NeedieWood_Harvest.png
-  artifactKey: Guid(0d5f887d0ba144b7180f3e33336beac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Woods/NeedieWood_Harvest.png using Guid(0d5f887d0ba144b7180f3e33336beac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d646da980b9b39f38903567a465dff') in 0.033463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.121997 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Barrel.png
-  artifactKey: Guid(2ee68aacf59df43f5a60b1aaf5c1196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Barrel.png using Guid(2ee68aacf59df43f5a60b1aaf5c1196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b3dc5a52cbada7a43fe415539c8821') in 0.031748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000643 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Cloud1.png
-  artifactKey: Guid(2b4ef2629256243f9877b5157c1cba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Cloud1.png using Guid(2b4ef2629256243f9877b5157c1cba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ee46be41d630c33d7b06f8f024729b') in 0.035083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Cloud3.png
-  artifactKey: Guid(0762ea07be4194133aff42ea8b6c85ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Cloud3.png using Guid(0762ea07be4194133aff42ea8b6c85ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68836c9a54b1f2a841b05eba8e0d15f4') in 0.031186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Well_dark.png
-  artifactKey: Guid(320d1d9197f9249d88858438a90eec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Well_dark.png using Guid(320d1d9197f9249d88858438a90eec97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a566d513d1163950d245636997c1725') in 0.028472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Box_covered.png
-  artifactKey: Guid(3775f8176edd949449f110983092e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Box_covered.png using Guid(3775f8176edd949449f110983092e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd63d35afea00407c37fc78afd94cc5a') in 0.033100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000897 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Cloud2.png
-  artifactKey: Guid(25bbc9d0905f041f2b428bf758f8d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Cloud2.png using Guid(25bbc9d0905f041f2b428bf758f8d520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564f8dcb9cfc9e1646fe93d62109e067') in 0.030690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Well_light.png
-  artifactKey: Guid(9b15265f13bb248e69093067508f6dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Well_light.png using Guid(9b15265f13bb248e69093067508f6dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6f0d8d55545b2f57b496c3c47f6c25') in 0.028315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/M Studio/Art/Items/Environments/Box_opened.png
-  artifactKey: Guid(90f35c035d25f4ded855d4d01fe92b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Environments/Box_opened.png using Guid(90f35c035d25f4ded855d4d01fe92b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40eb03f7dd715b67e323cabb5dab488d') in 0.030676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.456663 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_09.png
-  artifactKey: Guid(9b140238c8ad943fa9f6ff9c53f2881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_09.png using Guid(9b140238c8ad943fa9f6ff9c53f2881f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c99093e20844e305696e1a820f9ac1') in 0.031560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_10.png
-  artifactKey: Guid(902b8732e1c0b431789fe728c5d9767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_10.png using Guid(902b8732e1c0b431789fe728c5d9767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a13410314ef8475c49bf5dc5d7209a0') in 0.024064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_12.png
-  artifactKey: Guid(8b9910d91179b4a099ab476320fa5ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_12.png using Guid(8b9910d91179b4a099ab476320fa5ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c232b7d00bab14803430be08c8f40460') in 0.034112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000836 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_13.png
-  artifactKey: Guid(9a3bd1653028b428e882fa7ea297e736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_13.png using Guid(9a3bd1653028b428e882fa7ea297e736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6b3d498236575c4fc1fb15079dc357') in 0.028790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_11.png
-  artifactKey: Guid(05d94a511a1774bd987c62bdb7b67cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_11.png using Guid(05d94a511a1774bd987c62bdb7b67cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01899cb56735a2e8a2b7aaf9e8ae439') in 0.031373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_14.png
-  artifactKey: Guid(a94f97806ef1a4a20ad529791fc938a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_14.png using Guid(a94f97806ef1a4a20ad529791fc938a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c9a9ec3fde081633c7254dfdd26cdd') in 0.031378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.978974 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_15.png
-  artifactKey: Guid(cf64f70ccd4ea4cb3948f885a2e21562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_15.png using Guid(cf64f70ccd4ea4cb3948f885a2e21562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3842ede745a793cca9a937bd0c0dc84') in 0.023853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_17.png
-  artifactKey: Guid(7a3c557fbcc9444b997f423e08d27f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_17.png using Guid(7a3c557fbcc9444b997f423e08d27f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0e873943dc1e7a622e199b33f1bfc5') in 0.027399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000765 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_18.png
-  artifactKey: Guid(45c0c1434581042fe8e1b148c14964a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_18.png using Guid(45c0c1434581042fe8e1b148c14964a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4d5260501899d8e478be5f454d3864') in 0.030124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_circle.png
-  artifactKey: Guid(d20885051bde441809520892452f21e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_circle.png using Guid(d20885051bde441809520892452f21e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c1a69e50f90443142751a800bfd29') in 0.031809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000620 seconds.
-  path: Assets/M Studio/Art/UI/ui_uncheck.png
-  artifactKey: Guid(d8f5d270aa27d4727abc19ee8d371c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_uncheck.png using Guid(d8f5d270aa27d4727abc19ee8d371c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b95687952a6426ca06584b9b6f4198') in 0.030636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/M Studio/Art/UI/ui_time_16.png
-  artifactKey: Guid(1f15d6e33cb0f4db194f86ae0e8cd3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI/ui_time_16.png using Guid(1f15d6e33cb0f4db194f86ae0e8cd3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89951dcd9222003eaef44257b6713b7') in 0.027991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 889.691594 seconds.
-  path: Assets/M Studio/Art/Items/Rocks/Rock01.png
-  artifactKey: Guid(b40fde803efab463bbc950e4d29ee5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Rocks/Rock01.png using Guid(b40fde803efab463bbc950e4d29ee5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedcbc422aa4b259fd2b2d826dc8231f') in 0.035170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000962 seconds.
-  path: Assets/M Studio/Art/Items/Rocks/Rock_Harvest.png
-  artifactKey: Guid(45a3ea64377134f4299e757a1becb6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Rocks/Rock_Harvest.png using Guid(45a3ea64377134f4299e757a1becb6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817b70e368b0ccbe8adeaf36ddcea70a') in 0.030281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/M Studio/Art/Items/Rocks/Rock02.png
-  artifactKey: Guid(51532cbb9bf104839b6330f0a739b933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/Rocks/Rock02.png using Guid(51532cbb9bf104839b6330f0a739b933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f052ad41e3c91486ac87431a64db1d4') in 0.032435 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008469 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
-Domain Reload Profiling:
-	ReloadAssembly (758ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (615ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (15323ms)
+			LoadAssemblies (7797ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2485ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (314ms)
+			SetupLoadedEditorAssemblies (4505ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.1 MB.
-System memory in use after: 106.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3035.
-Total: 2.778600 ms (FindLiveObjects: 0.123900 ms CreateObjectMapping: 0.047000 ms MarkObjects: 2.489800 ms  DeleteObjects: 0.116900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003021 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Domain Reload Profiling:
-	ReloadAssembly (771ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (618ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (239ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (184ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 106.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3038.
-Total: 2.347700 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.996100 ms  DeleteObjects: 0.133000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2702.131345 seconds.
-  path: Assets/DNFBitBitTTF 1 SDF.asset
-  artifactKey: Guid(10ba79843f6746846867524ebfcf9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF 1 SDF.asset using Guid(10ba79843f6746846867524ebfcf9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2abb7ed4daca70a8ee80277d5676ec') in 0.210040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.705353 seconds.
-  path: Assets/Maps
-  artifactKey: Guid(d8de3b751aa4eb04abb1dac21fde0635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps using Guid(d8de3b751aa4eb04abb1dac21fde0635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec903c7abecac91e0f9baef81ad64f3') in 0.010440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 100.322661 seconds.
-  path: Assets/Scenes/Plaza.unity
-  artifactKey: Guid(f7f8c942cf4f29545b9a3a4d75f8f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Plaza.unity using Guid(f7f8c942cf4f29545b9a3a4d75f8f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5b30e8200ffe06dc1f39565ba4d01') in 0.014069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 225.141462 seconds.
-  path: Assets/Scenes/MiniGame.unity
-  artifactKey: Guid(ee24df504334b6d4198f6f4bcc90fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MiniGame.unity using Guid(ee24df504334b6d4198f6f4bcc90fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0c6c93c1faf2851a821b860395f4e5') in 0.013564 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006156 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1394ms)
-		BeginReloadAssembly (168ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1141ms)
-			LoadAssemblies (185ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 106.3 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3043.
-Total: 5.884500 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.115300 ms MarkObjects: 5.235600 ms  DeleteObjects: 0.319000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 505.578801 seconds.
-  path: Assets/M Studio/Art/UI
-  artifactKey: Guid(033c80cf8011b4cc98c5e49e6c452e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/UI using Guid(033c80cf8011b4cc98c5e49e6c452e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf080566d6f760445167f02aaa419dc') in 0.024184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.400116 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/blueberry.png
-  artifactKey: Guid(1683a58ffb6f243019e331431169e852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/blueberry.png using Guid(1683a58ffb6f243019e331431169e852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df12b79d3cd456aeb423a0492461d1b1') in 0.091698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/icon_EggplantSeed.png
-  artifactKey: Guid(9f9b0e3a4d4144c4f857b9c99e50a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/icon_EggplantSeed.png using Guid(9f9b0e3a4d4144c4f857b9c99e50a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685505703fa003a32012cb64574ed8ac') in 0.037264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/eggplant.png
-  artifactKey: Guid(18dd810d9429d489cae29f0f11a4d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/eggplant.png using Guid(18dd810d9429d489cae29f0f11a4d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a43c1d70eccba60ee50aba3760c4cb7') in 0.034084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/EggplantSeed_hold.png
-  artifactKey: Guid(7fa27847daa7848cd8221a18379f7a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/EggplantSeed_hold.png using Guid(7fa27847daa7848cd8221a18379f7a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829ef5afc18f107a77a67116df2b64b7') in 0.034151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/eggplant_growth.png
-  artifactKey: Guid(2367379c11bac476d8ae816305d1bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/eggplant_growth.png using Guid(2367379c11bac476d8ae816305d1bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b37471842d1a7f76dcf4e8b0c09c3d') in 0.048819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/blueberry_growth.png
-  artifactKey: Guid(95e7e06c6bf4644f3a4bc7b164e261bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/blueberry_growth.png using Guid(95e7e06c6bf4644f3a4bc7b164e261bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731adafd606fb02c85aa6c29d9ec24b0') in 0.055213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/icon_PumpkinSeed.png
-  artifactKey: Guid(a4cf1d099c0994049a38e73bf9d629dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/icon_PumpkinSeed.png using Guid(a4cf1d099c0994049a38e73bf9d629dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ef8bfbe44f5d2a2f349a78fd0bfdfe') in 0.037146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/icon_BlueberrySeed.png
-  artifactKey: Guid(145ecd71b23ff4ef1ae4b88ba1820deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/icon_BlueberrySeed.png using Guid(145ecd71b23ff4ef1ae4b88ba1820deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c27c4dd0417b7fbb7a64ad44a638621') in 0.030501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/icon_RedpapperSeed.png
-  artifactKey: Guid(967cc7f8afb724dd0915a57883580633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/icon_RedpapperSeed.png using Guid(967cc7f8afb724dd0915a57883580633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a68784d6465a9759319c6cbb7d54295') in 0.030010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/M Studio/Art/Items/New Plant/BlueberrySeed_hold.png
-  artifactKey: Guid(a190370c9a26a43aa9c3e596f8976fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Items/New Plant/BlueberrySeed_hold.png using Guid(a190370c9a26a43aa9c3e596f8976fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846325adf01b1a80f59202c06162ef83') in 0.030565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 160.731365 seconds.
-  path: Assets/Clock.png
-  artifactKey: Guid(ec0dceec72a715745b4d0e3cc2f569ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clock.png using Guid(ec0dceec72a715745b4d0e3cc2f569ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9a59266329df82efe927558a4e1086') in 0.025868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.780211 seconds.
-  path: Assets/Clock.png
-  artifactKey: Guid(ec0dceec72a715745b4d0e3cc2f569ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clock.png using Guid(ec0dceec72a715745b4d0e3cc2f569ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb8d50090c5c138f4819dbb691e7b31') in 0.014978 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004172 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1294ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1070ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (426ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (685ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (1124ms)
+				ProcessInitializeOnLoadMethodAttributes (2314ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.50 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.2 MB.
-System memory in use after: 106.3 MB.
+Unloading 2266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3049.
-Total: 4.147900 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.060500 ms MarkObjects: 3.695000 ms  DeleteObjects: 0.176900 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 40.723300 ms (FindLiveObjects: 1.202500 ms CreateObjectMapping: 0.279700 ms MarkObjects: 33.977400 ms  DeleteObjects: 4.851700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1554,74 +126,242 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1113.417418 seconds.
-  path: Packages/com.unity.timeline/package.json
-  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c6c08db8f434b9305b26de0687e812') in 0.066912 seconds 
+  path: Assets/Script/MG_Carpenter/Arrow.cs
+  artifactKey: Guid(685ad72098c3ccf459871b6889cbda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MG_Carpenter/Arrow.cs using Guid(685ad72098c3ccf459871b6889cbda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86bbf20576b09fefd5eca0ad46ee004') in 0.548353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.384579 seconds.
-  path: Packages/com.unity.textmeshpro/package.json
-  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6d4de5db3a39bcb3575c98dc9df750') in 0.019931 seconds 
+  Time since last request: 362.212633 seconds.
+  path: Assets/Script/MG_Carpenter/Arrow.cs
+  artifactKey: Guid(685ad72098c3ccf459871b6889cbda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MG_Carpenter/Arrow.cs using Guid(685ad72098c3ccf459871b6889cbda93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10007ffcaae9eea77c7d68c8589f2535') in 0.063766 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.871463 seconds.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b65bc5ef85c79d143fe53cb865f9e50') in 0.018744 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3697ms)
+		BeginReloadAssembly (1432ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (198ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (505ms)
+		EndReloadAssembly (2040ms)
+			LoadAssemblies (676ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (710ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 101.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 16.842700 ms (FindLiveObjects: 1.012000 ms CreateObjectMapping: 0.211900 ms MarkObjects: 15.407700 ms  DeleteObjects: 0.208500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 86.253171 seconds.
-  path: Assets/DNFBitBitTTF 1 SDF.asset
-  artifactKey: Guid(10ba79843f6746846867524ebfcf9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF 1 SDF.asset using Guid(10ba79843f6746846867524ebfcf9223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc53918148492e48fa17bd487fb12411') in 0.302162 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5450ms)
+		BeginReloadAssembly (854ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (163ms)
+		EndReloadAssembly (4326ms)
+			LoadAssemblies (942ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (2021ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (1028ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (692ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.9 MB.
+System memory in use after: 101.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2708.
+Total: 5.420300 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.218900 ms MarkObjects: 4.598400 ms  DeleteObjects: 0.243400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/DNFBitBitTTF 2 SDF.asset
-  artifactKey: Guid(1e3015d40871f91479da6af9287f38d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF 2 SDF.asset using Guid(1e3015d40871f91479da6af9287f38d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12dda53cb5ca37fe8a1a694e90a676e') in 0.271013 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5383ms)
+		BeginReloadAssembly (1532ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (210ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (602ms)
+		EndReloadAssembly (3618ms)
+			LoadAssemblies (745ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1405ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (1320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (418ms)
+				ProcessInitializeOnLoadAttributes (801ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
+System memory in use after: 102.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 56.554900 ms (FindLiveObjects: 4.176400 ms CreateObjectMapping: 1.847400 ms MarkObjects: 50.160800 ms  DeleteObjects: 0.361800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 24.143543 seconds.
-  path: Assets/DNFBitBitTTF 2 SDF Outline.asset
-  artifactKey: Guid(1e3015d40871f91479da6af9287f38d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DNFBitBitTTF 2 SDF Outline.asset using Guid(1e3015d40871f91479da6af9287f38d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168804db88c84f42fb7899587e0e2ea9') in 0.248164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.919137 seconds.
-  path: Assets/Image/Box.png
-  artifactKey: Guid(c42df852ec8f736408856d7ef2087079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Box.png using Guid(c42df852ec8f736408856d7ef2087079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8743456e3c4655e91ab5d3c313ba9b') in 0.057228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.815920 seconds.
-  path: Assets/Image/Fruit.png
-  artifactKey: Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Fruit.png using Guid(35acef9dcec0d9a4c803f9df49de64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2478c2725de65cb8a3ff2426d4e276b6') in 0.036730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.575946 seconds.
-  path: Assets/Image/InBox.png
-  artifactKey: Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/InBox.png using Guid(0c1bb2cc42d6e34468a3cf450dc0f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19e865617d722762b08a0d3838d7ee6') in 0.038433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.613489 seconds.
-  path: Assets/Image/Scale.png
-  artifactKey: Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Scale.png using Guid(d004221c060702e428df2723301377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cdd7da4c09311fcc55730230e8aaaf') in 0.028726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 458.199367 seconds.
-  path: Assets/Script/MiniGame
-  artifactKey: Guid(85361d6b1291f4741828f9ac8e36ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/MiniGame using Guid(85361d6b1291f4741828f9ac8e36ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329001355edcaa15b654837b3d73dc5c') in 0.009015 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.143 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4175ms)
+		BeginReloadAssembly (1842ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (94ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (1223ms)
+		EndReloadAssembly (2111ms)
+			LoadAssemblies (618ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (721ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 17.056300 ms (FindLiveObjects: 1.735900 ms CreateObjectMapping: 0.273200 ms MarkObjects: 14.795500 ms  DeleteObjects: 0.237700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
