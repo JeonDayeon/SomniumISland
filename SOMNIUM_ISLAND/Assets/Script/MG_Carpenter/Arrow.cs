@@ -6,17 +6,19 @@ using TMPro;
 
 public class Arrow : MonoBehaviour
 {
+    //-----------------------------------------------------------------------------[ 변수 선언 ]
     public Sprite[] ArrImage_df; 
-    public List<int> Answer; //현재 답 10개
+    public List<int> Answer; //현재 답
     public List<Image> ListImageSpace; //이미지, 자리
-    public int TargetValue; //목표치 나무 //텍스트 값 연결
-    public int ArrowListCount; //몇개 할거야
+    public int TargetValue; //목표치 나무
+    public int ArrowListCount; //몇개 할거니 //리스트개수
     int failCount; //틀린 횟수
     Sprite[] setImages;
     bool isSucc = true;
-    int current = 0;
+    int current = 0; //값 비교할 index 현재 값
 
-    public TextMeshProUGUI Text;
+    public TextMeshProUGUI Text; // 텍스트
+    
     enum ArrowDt // 상 - 0, 하 - 1, 좌 - 2, 우 - 3
     {
         상 = 0,
@@ -24,17 +26,20 @@ public class Arrow : MonoBehaviour
         좌 = 2,
         우 = 3
     }
+    int EnumLength = System.Enum.GetValues(typeof(ArrowDt)).Length;
+
     void Start()
     {
+        //-------------------------------------------------------------------------[ 변수 초기화 ]
         GameObject ArrowList = GameObject.Find("ArrowList");
 
         Answer = new List<int>(new int[10]); //답
         ListImageSpace = new List<Image>(new Image[10]); //생성될 이미지 //변할 수 있을 만한 건 list
-        TargetValue = 100;
-        ArrowListCount = ArrowList.transform.childCount; //있는 값 만큼 // ArrowList로 관리
+        TargetValue = 10;
+        ArrowListCount = ArrowList.transform.childCount; //있는 값 만큼 - ArrowList로 관리, UI -> 이미지 접근
         Text = GameObject.Find("Text").GetComponent<TextMeshProUGUI>();
 
-        for (int i = 0; i < ArrowListCount; i++) //리스트 자식 초기화
+        for (int i = 0; i < ArrowListCount; i++) //리스트 자식 불러와서 초기화
         {
             ListImageSpace[i] = ArrowList.transform.GetChild(i).gameObject.GetComponent<Image>();
             ListImageSpace[i].color = Color.black;
@@ -48,17 +53,21 @@ public class Arrow : MonoBehaviour
 
     void Update()
     {
-        //int inputKey = InputKey(); //키값 받아서 나온 값
-        if (Input.anyKeyDown && current < 10 && failCount < 3)
+        //상하좌우 받을 때, current(index)가 10 아래, 실패횟수가 3 아래일 때, 계속 매칭되는 함수. //아무키나 받으면 안 될 거 같은데
+        if (IsInput(InputKey()) && current < 10 && failCount < 3 && Time.timeScale != 0)
         {
             Matching(InputKey(), Answer);
         }
+        //if (TargetValue == 0)
+        //{
+        //    GameEnd();
+        //}
 
     }
-    // 인풋키
-    void Matching(int inputKey, List<int>answer)             
+    //-----------------------------------------------------------------------------[ 함수 구현 ]
+    void Matching(int inputKey, List<int>answer)         
     {
-        
+        //------------------------------------------------[ 정답일 때, 오답일 때]
         if (answer[current] == inputKey)
         {
             Debug.Log("정답" + TargetValue);
@@ -74,7 +83,7 @@ public class Arrow : MonoBehaviour
         //리셋되는 조건
         if (current == 10 || failCount >= 3) 
         {
-            if(current == 10)
+            if(current == 10) // 10 됐을 때
             {
                 TargetValue--;
                 Text.text = TargetValue.ToString();
@@ -135,7 +144,7 @@ public class Arrow : MonoBehaviour
             list[k] = list[n];
             list[n] = value;
         }
-    }
+    } //값 섞기
     void Shuffle(int[] list)
     {
         Debug.Log("셔플");
@@ -152,7 +161,7 @@ public class Arrow : MonoBehaviour
     //키를 받아 값 반환
     int InputKey()
     {
-        int result = 0;
+        int result = EnumLength+1;
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
         {
             result = (int)ArrowDt.상;
@@ -178,6 +187,11 @@ public class Arrow : MonoBehaviour
 
         return result;
     }
+    bool IsInput(int function) // 인풋 받고 있니? 아무키나 받지 말고 0, 1, 2, 3 만... 이넘 갯수만큼용
+    {
+        if (function < EnumLength) return true;
+        else return false;
+    }
     void GameReset()
     {
         current = 0;
@@ -189,6 +203,12 @@ public class Arrow : MonoBehaviour
         RandomAnswerCreate(Answer); //랜덤 값 생성
         Shuffle(Answer); // 값 섞기
         ImageAnswerCreate(Answer, ListImageSpace, ArrImage_df);
+    }
+    public void GameEnd()
+    {
+        //타임 제로
+        Time.timeScale = 0;
+        //Debug.Log("게임엔드~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 }
 
