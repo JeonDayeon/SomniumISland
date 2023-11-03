@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
 public class CloseBoxGame : MonoBehaviour
 {
     //-------------------------------------------------게임 노드(슬라이더)
@@ -67,13 +66,16 @@ public class CloseBoxGame : MonoBehaviour
 
     void GameRedy()
     {
+        float NodeX = Slide.gameObject.transform.position.x + 30;
+        float NodeY = Slide.gameObject.transform.position.y;
+        float SlideWidth = Slide.gameObject.GetComponent<RectTransform>().rect.width;
         int j = 0;
-        for (float i = 155.3f; i < 648f; i += 34 / 2)
+        for (float i = 102; i < 581; i += 34 / 2)
         {
             int num = Random.Range(0, 4);
             if (num != 0 && num != 2 && num != 3)
             {
-                GameObject N = Instantiate(NodePrefab, new Vector2(i, 99.8f), Quaternion.identity, Slide.gameObject.transform.GetChild(2));
+                GameObject N = Instantiate(NodePrefab, new Vector2(i, NodeY), Quaternion.identity, Slide.gameObject.transform.GetChild(2));
                 N.transform.SetAsFirstSibling();
                 N.name = "node_" + j; 
                 int randomColor = Random.Range(0, 10);

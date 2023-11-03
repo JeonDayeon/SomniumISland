@@ -1,3 +1,4 @@
-ID,Name,Content
-100,소만,무슨 일이신가요?
-200,곡우,안녕하세요?
+ID,Name,Content,Image
+100,소만,무슨 일이신가요?,soman
+200,곡우,안녕하세요?,gokwoo
+300,추분,안녕하십니까!,thubun

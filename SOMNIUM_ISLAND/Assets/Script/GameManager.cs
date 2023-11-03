@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     public Text talkText;
     public Text nameText;
     public GameObject ScanObj;
+    public RawImage Standing;
+    public Texture[] NpcT;
 
     int talkid;
     int talkindex;
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<PlayerController>();
 
         talkmanager = FindObjectOfType<TalkManager>();
+        Standing = GameObject.Find("TalkCanvas").transform.GetChild(0).GetComponent<RawImage>();
         //TalkBox = GameObject.Find("TalkBox");
         //talkText = GameObject.Find("TalkText").GetComponent<Text>();
         //nameText = GameObject.Find("NameText").GetComponent<Text>();
@@ -52,16 +55,26 @@ public class GameManager : MonoBehaviour
     public void Talk(int talkId)
     {
         TalkBox.SetActive(true);
-
         string talkData = talkmanager.GetTalk(talkId, talkindex, "Content", talkType);
         string nameData = talkmanager.GetTalk(talkId, talkindex, "Name", talkType);
+        string image = talkmanager.GetTalk(talkId, talkindex, "Image", talkType);
+        if(image != " " || image != null)
+        {
+            for(int i = 0; i < NpcT.Length; i++)
+            {
+                if(image == NpcT[i].name)
+                {
+                    Standing.texture = NpcT[i];
+                }
+            }
+        }
+        Standing.gameObject.SetActive(true);
         talkText.text = talkData;
         nameText.text = nameData;
         Time.timeScale = 0;
 
         if(talkType == null && talkindex > 0) //대사 아래 다른 캐릭터 것은 출력 못하도록
         {
-            Debug.Log("꺼져꺼져꺼져꺼져꺼져");
             talkData = null;
             talkid = talkId;
         }
@@ -70,6 +83,7 @@ public class GameManager : MonoBehaviour
         {
             talkindex = 0;
             TalkBox.SetActive(false);
+            Standing.gameObject.SetActive(false);
             isTalk = false;
             Time.timeScale = 1.0f;
             return;

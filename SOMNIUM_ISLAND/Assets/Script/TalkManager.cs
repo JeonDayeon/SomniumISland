@@ -67,15 +67,5 @@ public class TalkManager : MonoBehaviour
                 return ((string)text[talkindex][typeName]);
             }
         }
-
-        //if (talkindex == text.Count)
-        //{
-        //    return null;
-        //}
-        //
-        //else
-        //{
-        //    return ((string)text[talkindex][typeName]);
-        //}
     }
 }
