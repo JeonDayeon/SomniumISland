@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Plaza.unity
+- path: Assets/01_Scenes/Plaza.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
