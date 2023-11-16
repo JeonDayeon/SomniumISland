@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 7464c0b0a432f294d8d412a640177ca3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8696405674268354781
+    second: Character_Move_hair1_0
+  - first:
+      213: 2025644575433470387
+    second: Character_Move_hair1_1
+  - first:
+      213: 3627164212378308558
+    second: Character_Move_hair1_2
+  - first:
+      213: -9197164442543637829
+    second: Character_Move_hair1_3
+  - first:
+      213: -842644684724584774
+    second: Character_Move_hair1_4
+  - first:
+      213: 3151953415059909217
+    second: Character_Move_hair1_5
+  - first:
+      213: 3449850381192105515
+    second: Character_Move_hair1_6
+  - first:
+      213: -6335389123480051921
+    second: Character_Move_hair1_7
+  - first:
+      213: 3006113350063839818
+    second: Character_Move_hair1_8
+  - first:
+      213: -7824323452333580982
+    second: Character_Move_hair1_9
+  - first:
+      213: 9052031133341531538
+    second: Character_Move_hair1_10
+  - first:
+      213: -4439574968758105822
+    second: Character_Move_hair1_11
+  - first:
+      213: -7325290218219347548
+    second: Character_Move_hair1_12
+  - first:
+      213: -4190313458427515773
+    second: Character_Move_hair1_13
+  - first:
+      213: 6592758618625971155
+    second: Character_Move_hair1_14
+  - first:
+      213: 9011808268288010205
+    second: Character_Move_hair1_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 17
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,7 +197,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character_Move_hair1_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 191
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3271b826d19205780800000000000000
+      internalID: -8696405674268354781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 190
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1b8ef42098c1c10800000000000000
+      internalID: 2025644575433470387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 191
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf81d432a6465230800000000000000
+      internalID: 3627164212378308558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 190
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba355d0bab1d5080800000000000000
+      internalID: -9197164442543637829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 130
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abebe1faf135e44f0800000000000000
+      internalID: -842644684724584774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 130
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aa9356eecfdbb20800000000000000
+      internalID: 3151953415059909217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 130
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e8333c4a450ef20800000000000000
+      internalID: 3449850381192105515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 130
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f1915982d2418a0800000000000000
+      internalID: -6335389123480051921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 93
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a5d113a2cd7b920800000000000000
+      internalID: 3006113350063839818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 92
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d16ef664b6a6390800000000000000
+      internalID: -7824323452333580982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 93
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d39962b564f9d70800000000000000
+      internalID: 9052031133341531538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 92
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229057976167362c0800000000000000
+      internalID: -4439574968758105822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1646a8b57575a90800000000000000
+      internalID: -7325290218219347548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ca3ec5c1409d5c0800000000000000
+      internalID: -4190313458427515773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d39811a80f2e7b50800000000000000
+      internalID: 6592758618625971155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_hair1_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd72c379fdf501d70800000000000000
+      internalID: 9011808268288010205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

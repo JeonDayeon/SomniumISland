@@ -203,7 +203,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 11
-        y: 188
+        y: 191
         width: 18
         height: 35
       alignment: 0
@@ -224,9 +224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 53
-        y: 188
+        y: 190
         width: 15
-        height: 35
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,7 +245,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 91
-        y: 188
+        y: 191
         width: 18
         height: 35
       alignment: 0
@@ -266,9 +266,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 132
-        y: 188
-        width: 18
-        height: 35
+        y: 190
+        width: 15
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Character_Move__Cl2_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 132
-        width: 7
-        height: 22
+        x: 15
+        y: 130
+        width: 12
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Character_Move__Cl2_5
       rect:
         serializedVersion: 2
-        x: 54
-        y: 132
-        width: 13
-        height: 21
+        x: 53
+        y: 130
+        width: 15
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: Character_Move__Cl2_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 132
-        width: 7
-        height: 22
+        x: 95
+        y: 130
+        width: 12
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: Character_Move__Cl2_7
       rect:
         serializedVersion: 2
-        x: 133
-        y: 132
-        width: 15
-        height: 21
+        x: 132
+        y: 130
+        width: 18
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Character_Move__Cl2_8
       rect:
         serializedVersion: 2
-        x: 16
-        y: 72
-        width: 7
-        height: 22
+        x: 13
+        y: 70
+        width: 12
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: Character_Move__Cl2_9
       rect:
         serializedVersion: 2
-        x: 53
-        y: 72
-        width: 13
-        height: 21
+        x: 52
+        y: 70
+        width: 15
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: Character_Move__Cl2_10
       rect:
         serializedVersion: 2
-        x: 96
-        y: 72
-        width: 7
-        height: 22
+        x: 93
+        y: 70
+        width: 12
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: Character_Move__Cl2_11
       rect:
         serializedVersion: 2
-        x: 132
-        y: 72
-        width: 15
-        height: 21
+        x: 130
+        y: 70
+        width: 18
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: Character_Move__Cl2_12
       rect:
         serializedVersion: 2
-        x: 12
-        y: 13
-        width: 16
-        height: 21
+        x: 11
+        y: 11
+        width: 18
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,9 +476,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 53
-        y: 14
+        y: 10
         width: 15
-        height: 19
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
