@@ -223,7 +223,7 @@ TextureImporter:
       name: Character_Move_hair1_1
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 190
         width: 17
         height: 36
@@ -265,9 +265,9 @@ TextureImporter:
       name: Character_Move_hair1_3
       rect:
         serializedVersion: 2
-        x: 132
+        x: 131
         y: 190
-        width: 16
+        width: 17
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

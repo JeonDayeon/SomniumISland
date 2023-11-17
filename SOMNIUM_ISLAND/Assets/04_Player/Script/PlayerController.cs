@@ -2,18 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+struct Costume
+{
+    public string name;
+    public AnimatorOverrideController overrideAnim;
+}
+
+[System.Serializable]
+struct Costumes
+{
+    public enum Type
+    {
+        Hair,
+        Face,
+        Closet,
+        shoes
+    };
+    public Type type;
+    public Costume[] c;
+}
+
 public class PlayerController : MonoBehaviour
 {
+//대화----------------------------------------------------------------------------------------
     public GameManager Game;
     public GameObject scanObject;
 
+//캐릭터 이동---------------------------------------------------------------------------------
     public float speed = 0.0f;
     public float Walkspeed = 9.0f;
     public float Runspeed = 10.0f;
 
     Animator anim;
-    Animator Custums;
-
     float h;
     float v;
     bool isHorizonMove;
@@ -21,16 +42,28 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rbody;
     bool isMoving = true;
 
-    // Start is called before the first frame update
+//캐릭터 커스터마이징--------------------------------------------------------------------------
+    [SerializeField]
+    Costumes[] Costume;
+
+    public Animator[] Bodypart = new Animator[4];
+    public int[] CustomSettings = new int[4];
+
+
     void Start()
     {
         Game = FindObjectOfType<GameManager>();
         rbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        for (int i = 1; i < transform.childCount; i++)
+        {
+            Bodypart[i - 1] = transform.GetChild(i).GetComponent<Animator>();
+        }
         speed = Walkspeed;
+
+        setCostume();
     }
 
-    // Update is called once per frame
     void Update()
     {
         h = Input.GetAxisRaw("Horizontal");
@@ -41,6 +74,7 @@ public class PlayerController : MonoBehaviour
         bool vUp = Input.GetButtonUp("Vertical");
         bool Run = Input.GetKeyDown(KeyCode.LeftShift);
 
+       
         if (Input.GetKey(KeyCode.LeftShift))
         {
             anim.speed = 1.3f;
@@ -69,6 +103,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isChange", true);
             anim.SetInteger("hAxisRaw", (int)h);
+
         }
         else if (anim.GetInteger("vAxisRaw") != v)
         {
@@ -101,6 +136,14 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 moveVec = isHorizonMove ? new Vector2(h, 0) : new Vector2(0, v);
         rbody.velocity = moveVec * speed;
+    }
+
+    public void setCostume()
+    {
+        for(int i = 0; i < Costume.Length; i++)
+        {
+            Bodypart[i].runtimeAnimatorController = Costume[i].c[CustomSettings[i]].overrideAnim;
+        }
     }
 
 }

@@ -177,7 +177,7 @@ TextureImporter:
         serializedVersion: 2
         x: 52
         y: 190
-        width: 16
+        width: 17
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -217,9 +217,9 @@ TextureImporter:
       name: Character_Move_hair4_7
       rect:
         serializedVersion: 2
-        x: 132
+        x: 131
         y: 190
-        width: 16
+        width: 17
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -240,7 +240,7 @@ TextureImporter:
         serializedVersion: 2
         x: 14
         y: 130
-        width: 13
+        width: 14
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -282,7 +282,7 @@ TextureImporter:
         serializedVersion: 2
         x: 94
         y: 130
-        width: 13
+        width: 14
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -322,9 +322,9 @@ TextureImporter:
       name: Character_Move_hair4_12
       rect:
         serializedVersion: 2
-        x: 13
+        x: 11
         y: 70
-        width: 13
+        width: 16
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -364,9 +364,9 @@ TextureImporter:
       name: Character_Move_hair4_14
       rect:
         serializedVersion: 2
-        x: 93
+        x: 88
         y: 70
-        width: 13
+        width: 22
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
