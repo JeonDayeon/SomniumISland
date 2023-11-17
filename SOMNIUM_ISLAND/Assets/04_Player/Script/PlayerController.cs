@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float Runspeed = 10.0f;
 
     Animator anim;
+    Animator Custums;
 
     float h;
     float v;

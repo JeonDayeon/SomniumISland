@@ -323,9 +323,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 13
-        y: 86
+        y: 70
         width: 13
-        height: 22
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: Character_Move_hair4_13
       rect:
         serializedVersion: 2
-        x: 53
-        y: 85
-        width: 13
-        height: 22
+        x: 52
+        y: 70
+        width: 15
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,9 +365,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 93
-        y: 86
+        y: 70
         width: 13
-        height: 22
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +385,10 @@ TextureImporter:
       name: Character_Move_hair4_15
       rect:
         serializedVersion: 2
-        x: 133
-        y: 85
-        width: 13
-        height: 22
+        x: 130
+        y: 70
+        width: 18
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: Character_Move_hair4_16
       rect:
         serializedVersion: 2
-        x: 13
-        y: 24
-        width: 14
-        height: 22
+        x: 11
+        y: 11
+        width: 18
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,9 +428,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 53
-        y: 24
-        width: 14
-        height: 22
+        y: 10
+        width: 15
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: Character_Move_hair4_18
       rect:
         serializedVersion: 2
-        x: 93
-        y: 24
-        width: 14
-        height: 22
+        x: 91
+        y: 11
+        width: 18
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,10 +469,10 @@ TextureImporter:
       name: Character_Move_hair4_19
       rect:
         serializedVersion: 2
-        x: 133
-        y: 24
-        width: 14
-        height: 22
+        x: 132
+        y: 10
+        width: 15
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

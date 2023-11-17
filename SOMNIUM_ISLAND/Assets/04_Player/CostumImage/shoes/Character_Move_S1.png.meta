@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 6ac7e448f5b5a6245a936ecfde8bdca9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2193154326856095725
+    second: Character_Move_S1_0
+  - first:
+      213: -3661192809972112094
+    second: Character_Move_S1_1
+  - first:
+      213: -5494576376113903922
+    second: Character_Move_S1_3
+  - first:
+      213: -8155757650708242235
+    second: Character_Move_S1_4
+  - first:
+      213: 4561633925737503831
+    second: Character_Move_S1_5
+  - first:
+      213: 1554427554264304349
+    second: Character_Move_S1_6
+  - first:
+      213: 866356089157393237
+    second: Character_Move_S1_8
+  - first:
+      213: -4803084233491664209
+    second: Character_Move_S1_9
+  - first:
+      213: -394116890235592913
+    second: Character_Move_S1_10
+  - first:
+      213: -8998008399861567001
+    second: Character_Move_S1_11
+  - first:
+      213: -6748720798807817060
+    second: Character_Move_S1_13
+  - first:
+      213: -6262573385493479455
+    second: Character_Move_S1_14
+  - first:
+      213: -4920433345378127087
+    second: Character_Move_S1_15
+  - first:
+      213: 6749326017316891891
+    second: Character_Move_S1_16
+  - first:
+      213: -1374544581946501240
+    second: Character_Move_S1_17
+  - first:
+      213: -8347581505718838314
+    second: Character_Move_S1_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -280,7 +328,7 @@ TextureImporter:
       name: Character_Move_S1_8
       rect:
         serializedVersion: 2
-        x: 96
+        x: 95
         y: 130
         width: 12
         height: 38
@@ -314,6 +362,174 @@ TextureImporter:
       bones: []
       spriteID: fa233746654085db0800000000000000
       internalID: -4803084233491664209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 70
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f9685c6c0d78af0800000000000000
+      internalID: -394116890235592913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 70
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e13548a807a02380800000000000000
+      internalID: -8998008399861567001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 70
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9405c2903ab752a0800000000000000
+      internalID: -6748720798807817060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef78d9bfaed619a0800000000000000
+      internalID: -6262573385493479455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113ffb321fb17bbb0800000000000000
+      internalID: -4920433345378127087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 10
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fca977d04c6aad50800000000000000
+      internalID: 6749326017316891891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88714214cf2acece0800000000000000
+      internalID: -1374544581946501240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_S1_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 10
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db120219de672c80800000000000000
+      internalID: -8347581505718838314
       vertices: []
       indices: 
       edges: []

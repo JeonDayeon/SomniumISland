@@ -26,6 +26,18 @@ TextureImporter:
   - first:
       213: 4608269953351806850
     second: Character_Move_eye3_9
+  - first:
+      213: 8363002325042522104
+    second: Character_Move_eye3_10
+  - first:
+      213: -4634343922563516720
+    second: Character_Move_eye3_11
+  - first:
+      213: 8863220427050844047
+    second: Character_Move_eye3_13
+  - first:
+      213: 1306718268889126805
+    second: Character_Move_eye3_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -338,6 +350,90 @@ TextureImporter:
       bones: []
       spriteID: 28fe3ae5b1dd3ff30800000000000000
       internalID: 4608269953351806850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_eye3_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 70
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ece73e4a5f0470800000000000000
+      internalID: 8363002325042522104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_eye3_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 70
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d67c9891c08fafb0800000000000000
+      internalID: -4634343922563516720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_eye3_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 70
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ff950e40c700b70800000000000000
+      internalID: 8863220427050844047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Move_eye3_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59756ae9755622210800000000000000
+      internalID: 1306718268889126805
       vertices: []
       indices: 
       edges: []
