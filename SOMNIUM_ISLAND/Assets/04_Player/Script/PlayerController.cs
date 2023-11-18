@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-struct Costume
+public struct Costume
 {
     public string name;
     public AnimatorOverrideController overrideAnim;
 }
 
 [System.Serializable]
-struct Costumes
+public struct Costumes
 {
     public enum Type
     {
@@ -44,11 +44,11 @@ public class PlayerController : MonoBehaviour
 
 //캐릭터 커스터마이징--------------------------------------------------------------------------
     [SerializeField]
-    Costumes[] Costume;
+    public Costumes[] Costume;
 
     public Animator[] Bodypart = new Animator[4];
     public int[] CustomSettings = new int[4];
-
+    public SpriteRenderer spriteRender;
 
     void Start()
     {
@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
         {
             Bodypart[i - 1] = transform.GetChild(i).GetComponent<Animator>();
         }
+        spriteRender = transform.GetComponent<SpriteRenderer>();
         speed = Walkspeed;
 
         setCostume();
@@ -145,5 +146,4 @@ public class PlayerController : MonoBehaviour
             Bodypart[i].runtimeAnimatorController = Costume[i].c[CustomSettings[i]].overrideAnim;
         }
     }
-
 }
