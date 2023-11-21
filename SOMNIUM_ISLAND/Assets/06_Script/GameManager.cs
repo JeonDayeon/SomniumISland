@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -29,6 +30,11 @@ public class GameManager : MonoBehaviour
     public GameObject Inven;
     public TextMeshProUGUI CoinTxt;
     public GameObject[] Slots = new GameObject[14];
+    //ªÛ¡°--------------------------------------------
+    List<int> StoreList = new List<int>();
+    public int[] StoreItems;
+    public GameObject Store;
+    public GameObject[] StoreSlots = new GameObject[7];
 
     // Start is called before the first frame update
     void Start()
@@ -149,4 +155,8 @@ public class GameManager : MonoBehaviour
         CoinTxt.text = inventorys.coin.ToString() + " Coin";
     }
 
+    public void InvenBtn()
+    {
+        //GameObject ClickBtn = EventSystem.current.currentSelectedGameObject.transform.GetChild;
+    }
 }

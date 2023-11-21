@@ -7,6 +7,7 @@ public struct ItemArray
 {
     public int id;
     public string name;
+    public int price;
 
     public Sprite image;
 }

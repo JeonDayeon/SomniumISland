@@ -19,6 +19,7 @@ public class CustomizingManager : MonoBehaviour
     public GameObject[] TypeNode;
 
     public GameObject EndCanvas;
+
     // Start is called before the first frame update
     void Start()
     {
