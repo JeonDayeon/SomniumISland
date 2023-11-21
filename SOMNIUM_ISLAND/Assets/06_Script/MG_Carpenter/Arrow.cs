@@ -11,6 +11,7 @@ public class Arrow : MonoBehaviour
     public List<int> Answer; //현재 답
     public List<Image> ListImageSpace; //이미지, 자리
     public int TargetValue; //목표치 나무
+    public int MaxValue;//목표치 나무 저장용
     public int ArrowListCount; //몇개 할거니 //리스트개수
     int failCount; //틀린 횟수
     Sprite[] setImages;
@@ -28,14 +29,26 @@ public class Arrow : MonoBehaviour
     }
     int EnumLength = System.Enum.GetValues(typeof(ArrowDt)).Length;
 
+    //-----------------------------------------------------게임엔드
+    public GameObject GameEndPanel;
+    public TextMeshProUGUI CompleteNum;
+    bool IsEnd = false;//게임 진행 안되게 막는 변수
+
+    public int EndCoin = 0; //게임 진행 결과에 따른 코인
+
+
     void Start()
     {
         //-------------------------------------------------------------------------[ 변수 초기화 ]
+        GameEndPanel = GameObject.Find("Canvas").transform.GetChild(6).gameObject;
+        CompleteNum = GameEndPanel.transform.GetChild(1).transform.GetComponent<TextMeshProUGUI>();
+
         GameObject ArrowList = GameObject.Find("ArrowList");
 
         Answer = new List<int>(new int[10]); //답
         ListImageSpace = new List<Image>(new Image[10]); //생성될 이미지 //변할 수 있을 만한 건 list
-        TargetValue = 10;
+        MaxValue = 10;
+        TargetValue = MaxValue;
         ArrowListCount = ArrowList.transform.childCount; //있는 값 만큼 - ArrowList로 관리, UI -> 이미지 접근
         Text = GameObject.Find("Text").GetComponent<TextMeshProUGUI>();
 
@@ -194,6 +207,7 @@ public class Arrow : MonoBehaviour
     }
     void GameReset()
     {
+        EndCoin += 20;
         current = 0;
         failCount = 0;
         for (int i = 0; i < ArrowListCount; i++) //리스트 자식 초기화
@@ -208,7 +222,16 @@ public class Arrow : MonoBehaviour
     {
         //타임 제로
         Time.timeScale = 0;
+
+        IsEnd = true;
+        GameEndPanel.SetActive(true);
+        CompleteNum.text = MaxValue - TargetValue + "/" + MaxValue;
         //Debug.Log("게임엔드~~~~~~~~~~~~~~~~~~~~~~~~");
+    }
+
+    public void Reward()
+    {
+        inventorys.coin = EndCoin;
     }
 }
 

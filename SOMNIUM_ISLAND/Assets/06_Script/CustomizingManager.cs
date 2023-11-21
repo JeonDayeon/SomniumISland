@@ -33,7 +33,7 @@ public class CustomizingManager : MonoBehaviour
         TypeNode[0] = Canvases[1].transform.GetChild(2).GetChild(1).gameObject;
         TypeNode[1] = Canvases[1].transform.GetChild(2).GetChild(2).gameObject;
 
-        EndCanvas = GameObject.Find("EndCostumeCanvas");
+        //EndCanvas = GameObject.Find("EndCostumeCanvas");
         EndCanvas.SetActive(false);
         TypePage();
 
@@ -45,11 +45,6 @@ public class CustomizingManager : MonoBehaviour
         SetCustom();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void NextType()
     {
         if(CanvasPage < 4)
@@ -71,6 +66,7 @@ public class CustomizingManager : MonoBehaviour
         Image ClickBtn = EventSystem.current.currentSelectedGameObject.GetComponent<Image>();
         Color Btncol = ClickBtn.color;
 
+        playerSave.CustomColor = Btncol;
         player.gameObject.GetComponent<SpriteRenderer>().color = Btncol;
         playerEx.GetComponent<SpriteRenderer>().color = Btncol;
     }
@@ -133,10 +129,6 @@ public class CustomizingManager : MonoBehaviour
         }
     }
 
-    public void CustomPage()
-    {
-
-    }
     public void SetCustom()
     {
         for (int i = 0; i < player.Costume.Length; i++)
@@ -181,6 +173,7 @@ public class CustomizingManager : MonoBehaviour
     public void ChangeCustom(int index, int row)
     {
         player.CustomSettings[index] = CostumePage[row];
+        playerSave.CustomSettings[index] = CostumePage[row];
         BodypartEx[index].runtimeAnimatorController = player.Costume[index].c[player.CustomSettings[index]].overrideAnim;
         player.setCostume();
     }

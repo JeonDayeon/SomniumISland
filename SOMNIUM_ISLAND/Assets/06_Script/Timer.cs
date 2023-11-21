@@ -7,11 +7,15 @@ public class Timer : MonoBehaviour
 {
     public Slider Timers;
     float fSliderBarTime;
-    FlashGameManager game;
+
+    FlashGameManager MiniGame1;
+    CloseBoxGame MiniGame2;
+
     void Start()
     {
         Timers = gameObject.GetComponent<Slider>();
-        game = FindObjectOfType<FlashGameManager>();
+        MiniGame1 = FindObjectOfType<FlashGameManager>();
+        MiniGame2 = FindObjectOfType<CloseBoxGame>();
         SetTimer(50);
     }
 
@@ -24,7 +28,10 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            game.GameEnd();
+            if(MiniGame1 != null)
+                MiniGame1.GameEnd();
+            else if(MiniGame2 != null)
+                MiniGame2.GameEnd();
         }
     }
 

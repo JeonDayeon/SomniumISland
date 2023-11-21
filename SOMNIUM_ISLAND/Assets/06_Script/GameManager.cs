@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +24,12 @@ public class GameManager : MonoBehaviour
     //선택-------------------------------------------
     public GameObject selectMenu;
     bool isMenu = false;
+    //인벤토리---------------------------------------
+    public Item itemslist;
+    public GameObject Inven;
+    public TextMeshProUGUI CoinTxt;
+    public GameObject[] Slots = new GameObject[14];
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,13 +44,42 @@ public class GameManager : MonoBehaviour
 
         talkindex = 0; //톡 데이터 순서대로 내보내기 위함
         talkType = null;
-        //isTalk = true;
         //맵 아이디 가져오기
+
+        inventorys.invenItems.Add(0);
+        inventorys.invenItems.Add(0);
+        inventorys.invenItems.Add(1);
+        inventorys.invenItems.Add(2);
+
+        itemslist = FindObjectOfType<Item>();
+
+        Inven = GameObject.Find("Inventory");
+        Inven.SetActive(false);
+
+        GameObject slotsParents = Inven.transform.GetChild(0).GetChild(0).GetChild(0).GetChild(0).gameObject;
+        for (int i = 0; i < Slots.Length; i++)
+        {
+            Slots[i] = slotsParents.transform.GetChild(i).gameObject;
+        }
+
+        CoinTxt = Inven.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log("인벤토리");
+            if (Inven.activeSelf)
+                Inven.SetActive(false);
+
+            else
+            {
+                SetInven();
+                Inven.SetActive(true);
+            }
+        }
     }
 
     public void Action(GameObject scanObj)
@@ -100,4 +136,17 @@ public class GameManager : MonoBehaviour
         talkType = "talk";
         Talk(talkid);
     }
+
+    public void SetInven()
+    {
+        for (int i = 0; i < inventorys.invenItems.Count; i++)
+        {
+            GameObject slotItem = Slots[i].transform.GetChild(0).gameObject;
+            slotItem.name = itemslist.items[inventorys.invenItems[i]].name;
+            slotItem.GetComponent<Image>().sprite = itemslist.items[inventorys.invenItems[i]].image;
+            slotItem.SetActive(true);
+        }
+        CoinTxt.text = inventorys.coin.ToString() + " Coin";
+    }
+
 }

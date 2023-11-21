@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TokenCreate : MonoBehaviour
 {
@@ -13,18 +14,35 @@ public class TokenCreate : MonoBehaviour
     int Count;
     int TokenPoint;
     int Score; // scoreSet연결
+
+    public TextMeshProUGUI ScoreTxt;
     public enum TokenColor
     {
         Pich,
         Apple,
         Bannana
     }
+
+    //-----------------------------------------------------게임엔드
+    public GameObject GameEndPanel;
+    public TextMeshProUGUI CompleteNum;
+    bool IsEnd = false;//게임 진행 안되게 막는 변수
+
+    public int EndCoin = 0; //게임 진행 결과에 따른 코인
+
     void Start()
     {
+        GameEndPanel = GameObject.Find("Canvas").transform.GetChild(2).gameObject;
+        CompleteNum = GameEndPanel.transform.GetChild(1).transform.GetComponent<TextMeshProUGUI>();
+
+        ScoreTxt = GameObject.Find("ScoreText").transform.GetComponent<TextMeshProUGUI>();
+
         Count = 0;
         TokenPoint = 1;
         Score = 0;
         StartTokenInit();
+
+        ScoreTxt.text = Score.ToString();
     }
 
     // Update is called once per frame
@@ -91,7 +109,8 @@ public class TokenCreate : MonoBehaviour
                 Score -= TokenPoint;
             }
         }
-
+        ScoreTxt.text = Score.ToString();
+        EndCoin += 5;
     }
 
     void MoveTokenTrain(Transform Dir)
@@ -131,5 +150,21 @@ public class TokenCreate : MonoBehaviour
             }
 
         }
+    }
+
+    public void GameEnd()
+    {
+        //타임 제로
+        Time.timeScale = 0;
+
+        IsEnd = true;
+        GameEndPanel.SetActive(true);
+        CompleteNum.text = Score.ToString();
+        //Debug.Log("게임엔드~~~~~~~~~~~~~~~~~~~~~~~~");
+    }
+
+    public void Reward()
+    {
+        inventorys.coin = EndCoin;
     }
 }

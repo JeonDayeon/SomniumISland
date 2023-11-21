@@ -22,6 +22,11 @@ public struct Costumes
     public Type type;
     public Costume[] c;
 }
+public static class playerSave
+{
+    public static int[] CustomSettings = new int[4];
+    public static Color CustomColor = Color.white;
+}
 
 public class PlayerController : MonoBehaviour
 {
@@ -50,6 +55,8 @@ public class PlayerController : MonoBehaviour
     public int[] CustomSettings = new int[4];
     public SpriteRenderer spriteRender;
 
+    public GameObject CustomizingCanvas;
+
     void Start()
     {
         Game = FindObjectOfType<GameManager>();
@@ -61,7 +68,8 @@ public class PlayerController : MonoBehaviour
         }
         spriteRender = transform.GetComponent<SpriteRenderer>();
         speed = Walkspeed;
-
+        
+        CustomSettings = playerSave.CustomSettings;
         setCostume();
     }
 
@@ -119,7 +127,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && scanObject != null)
         {
             isMoving = false;
-            Game.Action(scanObject);
+            if (scanObject.name == "Mirror")
+                CustomizingCanvas.SetActive(true);
+
+            else
+                Game.Action(scanObject);
+
         }
     }
 
@@ -141,7 +154,8 @@ public class PlayerController : MonoBehaviour
 
     public void setCostume()
     {
-        for(int i = 0; i < Costume.Length; i++)
+        spriteRender.color = playerSave.CustomColor;
+        for (int i = 0; i < Costume.Length; i++)
         {
             Bodypart[i].runtimeAnimatorController = Costume[i].c[CustomSettings[i]].overrideAnim;
         }

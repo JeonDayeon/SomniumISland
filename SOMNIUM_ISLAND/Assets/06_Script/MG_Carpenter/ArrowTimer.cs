@@ -8,6 +8,8 @@ public class ArrowTimer : MonoBehaviour
     public Slider Timers;
     public Image TimersFill;
     Arrow ArrowGame;
+    TokenCreate tokenC;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,8 @@ public class ArrowTimer : MonoBehaviour
         //TimersFill = Timers.transform.GetChild(1).GetChild(0).gameObject.GetComponent<Image>();
         ArrowGame = FindObjectOfType<Arrow>();
         SetTimer(20);
+
+        tokenC = FindObjectOfType<TokenCreate>();
     }
 
     // Update is called once per frame
@@ -32,7 +36,10 @@ public class ArrowTimer : MonoBehaviour
         }
         else
         {
-            ArrowGame.GameEnd();
+            if (ArrowGame != null)
+                ArrowGame.GameEnd();
+            else if (tokenC != null)
+                tokenC.GameEnd();
         }
         
     }

@@ -53,6 +53,8 @@ public class FlashGameManager : MonoBehaviour
     public TextMeshProUGUI CompleteNum;
     bool IsEnd = false;//게임 진행 안되게 막는 변수
 
+    public int EndCoin = 0; //게임 진행 결과에 따른 코인
+
     // Start is called before the first frame update
     void Start()
     {
@@ -206,8 +208,10 @@ public class FlashGameManager : MonoBehaviour
                                 {
                                     if(boxlist[i].Boxweight == BoxWeight && boxlist[i].completeNum < boxlist[i].wantNum)
                                     {
+
                                         boxlist[i].completeNum += 1;
                                         BoxlistText[i].text = "- " + boxlist[i].fruit + " " + FruitWeight(boxlist[i].Boxweight) + " " + "(" + boxlist[i].completeNum + "/" + boxlist[i].wantNum + ")";
+                                        EndCoin += BoxWeight / 100;
                                         if (boxlist[i].completeNum == boxlist[i].wantNum)
                                         {
                                             for(int j = 0; j < boxlist.Length; j++)
@@ -221,7 +225,9 @@ public class FlashGameManager : MonoBehaviour
                                                 { 
                                                     if(j + 1 == boxlist.Length)
                                                     {
+                                                        EndCoin += 300;
                                                         GameEnd();
+                                                        break;
                                                     }
                                                 }
                                             }
@@ -294,5 +300,10 @@ public class FlashGameManager : MonoBehaviour
             Cnum += boxlist[i].completeNum;
         }
         CompleteNum.text = Cnum + "/" + 20;
+    }
+
+    public void Reward()
+    {
+        inventorys.coin = EndCoin;
     }
 }

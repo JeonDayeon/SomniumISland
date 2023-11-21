@@ -18,9 +18,19 @@ public class CloseBoxGame : MonoBehaviour
     public int WantNum, ClearNum;
     public TextMeshProUGUI WantNumtxt;
 
+    //-----------------------------------------------------게임엔드
+    public GameObject GameEndPanel;
+    public TextMeshProUGUI CompleteNum;
+    bool IsEnd = false;//게임 진행 안되게 막는 변수
+
+    public int EndCoin = 0; //게임 진행 결과에 따른 코인
+
     // Start is called before the first frame update
     void Start()
     {
+        GameEndPanel = GameObject.Find("Canvas").transform.GetChild(5).gameObject;
+        CompleteNum = GameEndPanel.transform.GetChild(1).transform.GetComponent<TextMeshProUGUI>();
+
         level = 1;
         leveltxt = GameObject.Find("LevelTxt").GetComponent<TextMeshProUGUI>();
         leveltxt.text = "Level " + level;
@@ -141,8 +151,23 @@ public class CloseBoxGame : MonoBehaviour
         {
             ClearNum++;
             WantNumtxt.text = ClearNum + "/" + WantNum;
+
+            EndCoin += nodes.Count * 5;
         }
 
         nodes.Clear();
+    }
+
+    public void GameEnd()
+    {
+        Time.timeScale = 0;
+        IsEnd = true;
+        GameEndPanel.SetActive(true);
+        CompleteNum.text = ClearNum + "/" + 20;
+    }
+
+    public void Reward()
+    {
+        inventorys.coin = EndCoin;
     }
 }
