@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,11 +28,15 @@ public class GameManager : MonoBehaviour
     public GameObject Inven;
     public TextMeshProUGUI CoinTxt;
     public GameObject[] Slots = new GameObject[14];
+    public GameObject ClickInven;
+    public int ClickInvenNum;
     //상점--------------------------------------------
-    List<int> StoreList = new List<int>();
-    public int[] StoreItems;
     public GameObject Store;
     public GameObject[] StoreSlots = new GameObject[7];
+    public GameObject StoreButton;
+    //선물--------------------------------------------
+    public string NPCname;
+
 
     // Start is called before the first frame update
     void Start()
@@ -52,11 +54,6 @@ public class GameManager : MonoBehaviour
         talkType = null;
         //맵 아이디 가져오기
 
-        inventorys.invenItems.Add(0);
-        inventorys.invenItems.Add(0);
-        inventorys.invenItems.Add(1);
-        inventorys.invenItems.Add(2);
-
         itemslist = FindObjectOfType<Item>();
 
         Inven = GameObject.Find("Inventory");
@@ -69,6 +66,19 @@ public class GameManager : MonoBehaviour
         }
 
         CoinTxt = Inven.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>();
+
+        Store = GameObject.Find("StoreCanvas");
+        Store.SetActive(false);
+
+        slotsParents = Store.transform.GetChild(1).GetChild(0).GetChild(0).GetChild(0).gameObject;
+
+        for (int i = 0; i < StoreSlots.Length; i++)
+        {
+            StoreSlots[i] = slotsParents.transform.GetChild(i).gameObject;
+        }
+
+        SetStore();
+        StoreButton = TalkBox.transform.GetChild(2).GetChild(2).gameObject;
     }
 
     // Update is called once per frame
@@ -78,7 +88,12 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("인벤토리");
             if (Inven.activeSelf)
+            {
                 Inven.SetActive(false);
+                Destroy(ClickInven);
+                ClickInven = null;
+                ClickInvenNum = 0;
+            }
 
             else
             {
@@ -86,6 +101,10 @@ public class GameManager : MonoBehaviour
                 Inven.SetActive(true);
             }
         }
+
+        if (ClickInven != null && Inven.activeSelf)
+            ClickInven.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
+            Input.mousePosition.y, -Camera.main.transform.position.z)); //마우스 커서에 오브젝트가 따라다니게
     }
 
     public void Action(GameObject scanObj)
@@ -99,12 +118,17 @@ public class GameManager : MonoBehaviour
         TalkBox.SetActive(true);
         string talkData = talkmanager.GetTalk(talkId, talkindex, "Content", talkType);
         string nameData = talkmanager.GetTalk(talkId, talkindex, "Name", talkType);
-        string image = talkmanager.GetTalk(talkId, talkindex, "Image", talkType);
-        if(image != " " || image != null)
+        NPCname = nameData;
+        if (NPCname == "추분")
         {
-            for(int i = 0; i < NpcT.Length; i++)
+            StoreButton.SetActive(true);
+        }
+        string image = talkmanager.GetTalk(talkId, talkindex, "Image", talkType);
+        if (image != " " || image != null)
+        {
+            for (int i = 0; i < NpcT.Length; i++)
             {
-                if(image == NpcT[i].name)
+                if (image == NpcT[i].name)
                 {
                     Standing.texture = NpcT[i];
                 }
@@ -115,7 +139,7 @@ public class GameManager : MonoBehaviour
         nameText.text = nameData;
         Time.timeScale = 0;
 
-        if(talkType == null && talkindex > 0) //대사 아래 다른 캐릭터 것은 출력 못하도록
+        if (talkType == null && talkindex > 0) //대사 아래 다른 캐릭터 것은 출력 못하도록
         {
             talkData = null;
             talkid = talkId;
@@ -123,14 +147,19 @@ public class GameManager : MonoBehaviour
 
         if (talkData == null && isMenu != true)
         {
+
             talkindex = 0;
             TalkBox.SetActive(false);
             Standing.gameObject.SetActive(false);
             isTalk = false;
             Time.timeScale = 1.0f;
+
+            Inven.SetActive(false);
+            Store.SetActive(false);
+            StoreButton.SetActive(false);
             return;
         }
-        
+
         else
         {
             talkindex++;
@@ -154,9 +183,111 @@ public class GameManager : MonoBehaviour
         }
         CoinTxt.text = inventorys.coin.ToString() + " Coin";
     }
+    public void SetStore()
+    {
+        for (int i = 0; i < itemslist.items.Length; i++)
+        {
+            GameObject slotItem = StoreSlots[i].transform.GetChild(0).gameObject;
+            slotItem.name = itemslist.items[i].name;
+            StoreSlots[i].transform.GetChild(1).transform.GetComponent<TextMeshProUGUI>().text =
+                itemslist.items[i].price.ToString();
+            StoreSlots[i].transform.GetChild(3).transform.GetComponent<Text>().text = itemslist.items[i].id.ToString();
+            slotItem.GetComponent<Image>().sprite = itemslist.items[i].image;
+            slotItem.SetActive(true);
+        }
+    }
 
     public void InvenBtn()
     {
-        //GameObject ClickBtn = EventSystem.current.currentSelectedGameObject.transform.GetChild;
+        if (ClickInven == null)
+        {
+            GameObject Clickobj = EventSystem.current.currentSelectedGameObject.transform.GetChild(0).gameObject;
+            for (int i = 0; i < Slots.Length; i++)
+            {
+                if (Clickobj.transform.parent.gameObject == Slots[i])
+                {
+                    ClickInvenNum = i;
+                    break;
+                }
+            }
+
+            string name = Clickobj.name;
+            ClickInven = Instantiate(Clickobj, Inven.transform);
+            Clickobj.name = "ItemImage";
+            Clickobj.transform.GetComponent<Image>().sprite = null;
+            Clickobj.SetActive(false);
+            ClickInven.name = name;
+        }
+    }
+
+    public void StoreBtn()
+    {
+        Transform ClickStoreObj = EventSystem.current.currentSelectedGameObject.transform;
+        int ObjId;
+        ObjId = int.Parse(ClickStoreObj.transform.GetChild(3).GetComponent<Text>().text);
+        int price = int.Parse(ClickStoreObj.GetChild(1).GetComponent<TextMeshProUGUI>().text);
+        if (inventorys.invenItems.Count < 14 && inventorys.coin > price)
+        {
+            inventorys.coin -= price;
+            inventorys.invenItems.Add(ObjId);
+            SetInven();
+        }
+    }
+
+    public void Present()
+    {
+        if (ClickInven != null)
+        {
+            switch (NPCname)
+            {
+                case "소만":
+                    talkText.text = "어머, 고마워요!";
+                    break;
+                case "곡우":
+                    talkText.text = "저한테 주시는 건가요?, 감사합니다.";
+                    break;
+                case "추분":
+                    talkText.text = "저한테 뭔가 바라시는 거라도 있습니까? 세상 공짜는 없죠.";
+                    TradeItem();
+                    break;
+            }
+            int arrNum = inventorys.invenItems.Count;
+            Slots[arrNum - 1].transform.GetChild(0).gameObject.SetActive(false);
+            inventorys.invenItems.RemoveAt(ClickInvenNum);
+            SetInven();
+            Destroy(ClickInven);
+            ClickInven = null;
+            ClickInvenNum = 0;
+        }
+    }
+    public void TradeItem()
+    {
+        for(int i = 0; i < itemslist.items.Length; i++)
+        {
+            if (ClickInven.name == itemslist.items[i].name)
+            {
+                inventorys.coin += itemslist.items[i].price;
+                break;
+            }
+        }
+    }
+
+    public void UseStore()
+    {
+        if(Store.activeSelf)
+        {
+            Store.SetActive(false);
+            Inven.SetActive(false);
+            talkText.text = "다음에 또 이용해주십쇼~!";
+        }
+
+        else 
+        {
+            Store.SetActive(true);
+            Inven.SetActive(true);
+            SetInven();
+            SetStore();
+            talkText.text = "구매하러 왔습니까? 한번 쭉 둘러보고 가십쇼~";
+        }
     }
 }

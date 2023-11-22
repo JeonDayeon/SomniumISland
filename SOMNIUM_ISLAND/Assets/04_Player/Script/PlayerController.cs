@@ -124,7 +124,7 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isChange", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && scanObject != null)
+        if (Input.GetKeyDown(KeyCode.Space) && scanObject != null && !Game.Store.activeSelf)
         {
             isMoving = false;
             if (scanObject.name == "Mirror")
