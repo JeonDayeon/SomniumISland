@@ -17,6 +17,23 @@ public class LoadScenesManager : MonoBehaviour
         
     }
 
+    public void LoadMiniGame1()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void LoadMiniGame2()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void LoadMiniGame3()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void LoadMiniGame4()
+    {
+        SceneManager.LoadScene(4);
+    }
+
     public void LoadPlaza()
     {
         SceneManager.LoadScene("Plaza");

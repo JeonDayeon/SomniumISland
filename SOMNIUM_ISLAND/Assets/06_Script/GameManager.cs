@@ -36,7 +36,8 @@ public class GameManager : MonoBehaviour
     public GameObject StoreButton;
     //선물--------------------------------------------
     public string NPCname;
-
+    //미니게임----------------------------------------
+    public GameObject MiniGamePopup;
 
     // Start is called before the first frame update
     void Start()
@@ -79,6 +80,8 @@ public class GameManager : MonoBehaviour
 
         SetStore();
         StoreButton = TalkBox.transform.GetChild(2).GetChild(2).gameObject;
+
+        MiniGamePopup = GameObject.Find("MiniGameCanvas").transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -289,5 +292,10 @@ public class GameManager : MonoBehaviour
             SetStore();
             talkText.text = "구매하러 왔습니까? 한번 쭉 둘러보고 가십쇼~";
         }
+    }
+
+    public void PlayeMiniGame()
+    {
+        MiniGamePopup.SetActive(true);
     }
 }

@@ -127,12 +127,18 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && scanObject != null && !Game.Store.activeSelf)
         {
             isMoving = false;
-            if (scanObject.name == "Mirror")
-                CustomizingCanvas.SetActive(true);
-
-            else
-                Game.Action(scanObject);
-
+            switch(scanObject.name)
+            {
+                case "Mirror":
+                    CustomizingCanvas.SetActive(true);
+                    break;
+                case "GreenHouse":
+                    Game.PlayeMiniGame();
+                    break;
+                case "소만": case "추분": case "곡우":
+                    Game.Action(scanObject);
+                    break;
+            }
         }
     }
 
