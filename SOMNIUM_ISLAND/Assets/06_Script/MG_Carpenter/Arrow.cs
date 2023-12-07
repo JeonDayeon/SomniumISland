@@ -231,7 +231,7 @@ public class Arrow : MonoBehaviour
 
     public void Reward()
     {
-        inventorys.coin = EndCoin;
+        inventorys.coin += EndCoin;
     }
 }
 

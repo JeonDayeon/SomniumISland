@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         //Find는 맵에 들어가면 알아서 찾을 수 있게 하기 위함
         player = FindObjectOfType<PlayerController>();
 
@@ -294,8 +295,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void PlayeMiniGame()
+    public void PlayeMiniGame(GameObject scan)
     {
+        ScanObj = scan;
         MiniGamePopup.SetActive(true);
     }
+
+    public void LetsTalk()
+    {
+
+    }
+
+    public void PlayQuest()
+    {
+
+    }
+
 }

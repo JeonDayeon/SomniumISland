@@ -36,8 +36,8 @@ public class PlayerController : MonoBehaviour
 
 //캐릭터 이동---------------------------------------------------------------------------------
     public float speed = 0.0f;
-    public float Walkspeed = 9.0f;
-    public float Runspeed = 10.0f;
+    float Walkspeed = 9.0f;
+    float Runspeed = 20.0f;
 
     Animator anim;
     float h;
@@ -56,14 +56,19 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer spriteRender;
 
     public GameObject CustomizingCanvas;
-
+    //캐릭터 맵 레이어------------------------------------------------------------------------------
+    //rigid
+    SpriteRenderer sr;
+    public SpriteRenderer[] Csr = new SpriteRenderer[4];//스킨용
     void Start()
     {
         Game = FindObjectOfType<GameManager>();
         rbody = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         for (int i = 1; i < transform.childCount; i++)
         {
+            Csr[i - 1] = transform.GetChild(i).GetComponent<SpriteRenderer>();
             Bodypart[i - 1] = transform.GetChild(i).GetComponent<Animator>();
         }
         spriteRender = transform.GetComponent<SpriteRenderer>();
@@ -86,7 +91,8 @@ public class PlayerController : MonoBehaviour
        
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            anim.speed = 1.3f;
+            Debug.Log(anim.speed);
+            anim.speed = 1.5f;
             speed = Runspeed;
         }
         else
@@ -133,12 +139,18 @@ public class PlayerController : MonoBehaviour
                     CustomizingCanvas.SetActive(true);
                     break;
                 case "GreenHouse":
-                    Game.PlayeMiniGame();
+                    Game.PlayeMiniGame(scanObject);
                     break;
                 case "소만": case "추분": case "곡우":
                     Game.Action(scanObject);
                     break;
             }
+        }
+
+        sr.sortingOrder = Mathf.RoundToInt(transform.position.y) * -1;
+        for(int i = 0; i < 4; i++)
+        {
+            Csr[i].sortingOrder = sr.sortingOrder + 1;
         }
     }
 

@@ -165,6 +165,6 @@ public class TokenCreate : MonoBehaviour
 
     public void Reward()
     {
-        inventorys.coin = EndCoin;
+        inventorys.coin += EndCoin;
     }
 }

@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerCostumeController : MonoBehaviour
 {
     public float speed = 0.0f;
-    public float Walkspeed = 9.0f;
-    public float Runspeed = 10.0f;
+    float Walkspeed = 9.0f;
+    float Runspeed = 20.0f;
     Animator anim;
     AnimatorOverrideController aoc;
     float h;
@@ -33,7 +33,7 @@ public class PlayerCostumeController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            anim.speed = 1.3f;
+            anim.speed = 1.5f;
             speed = Runspeed;
         }
         else

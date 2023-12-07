@@ -58,6 +58,8 @@ public class CustomizingManager : MonoBehaviour
     {
         if (CanvasPage > 0)
         {
+            if (EndCanvas.activeSelf)
+                EndCanvas.SetActive(false);
             CanvasPage--;
             TypePage();           
         }
@@ -126,6 +128,11 @@ public class CustomizingManager : MonoBehaviour
             case 4:
                 EndCanvas.SetActive(false);
                 gameObject.SetActive(false);
+                CanvasPage = 0;
+                PointNum[0] = 0;
+                PointNum[1] = 0;
+                Canvases[0].SetActive(true);
+                Canvases[1].SetActive(false);
                 break;
         }
     }
