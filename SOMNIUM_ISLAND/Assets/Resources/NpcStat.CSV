@@ -1,0 +1,5 @@
+﻿Color,Num,Type,NPCName,Like,Hate,Passion,Devotion
+#D7A347,0,Spring,곡우,10,0,10,10
+#84C365,1,Summer,소만,0,5,0,0
+#C38B64,2,Autumn,추분,10,0,10,0
+#64A7C3,3,Winter,소설,0,10,0,0
